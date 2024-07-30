@@ -1,21 +1,22 @@
 import Image from "next/image";
-import hero from "../../public/hero_img.jpg";
+import hero from "../../public/hero-img.jpg";
 import { buttonVariants } from "./ui/button";
 import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <div className="">
-      <Navbar />
-      <div>
+    <header className="">
+      <main className="relative">
+        <Navbar />
         <Image
           src={hero}
-          alt="main img"
-          width={3000}
-          className="object-cover max-h-[700px]"
+          alt="hero img"
+          width={2000}
+          height={700}
+          className="object-cover w-full min-w-500 max-h-[700px]"
         />
-      </div>
-      <div className="flex justify-center gap-6">
+      </main>
+      <div className="flex justify-center  gap-6">
         <a
           className={buttonVariants({
             size: "lg",
@@ -35,6 +36,6 @@ export default function Hero() {
           Our Services
         </a>
       </div>
-    </div>
+    </header>
   );
 }

@@ -1,14 +1,14 @@
 import Image from "next/image";
-import about_img from "../../public/printer_img.jpg";
+import about_img from "../../public/printer-img.jpg";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 
 export default function About() {
   return (
-    <section className="mt-48 mb-32" id="aboutus">
+    <section className="mt-8 mb-3" id="aboutus">
       <MaxWidthWrapper>
         <h1 className="text-4xl font-semibold text-center">About us</h1>
-        <div className="flex gap-10">
-          <div className="">
+        <div className="flex justify-center gap-10  flex-wrap">
+          <div className="max-w-xl">
             <h2 className="text-xl font-semibold mt-10 mb-6">
               MORE COPY SYSTEMS
             </h2>
@@ -27,7 +27,7 @@ export default function About() {
               Architecto.
             </p>
           </div>
-          <Image src={about_img} alt="about" width={250} />
+          <Image src={about_img} alt="about" width={400}  className="object-contain"/>
         </div>
       </MaxWidthWrapper>
     </section>

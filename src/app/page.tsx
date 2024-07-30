@@ -3,8 +3,9 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import Products from "@/components/Products";
+import Products from "@/components/products/Products";
 import Services from "@/components/Services";
+
 import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
@@ -12,11 +13,11 @@ export default function Home() {
     <>
       <Hero />
       <About />
-      {/* <Services /> */}
-      {/* <Products /> */}
+      <Services />
+      <Products />
       <Testimonials />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
