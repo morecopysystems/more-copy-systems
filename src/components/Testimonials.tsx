@@ -7,7 +7,7 @@ const Testimonials = () => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://static.elfsight.com/platform/platform.js";
-    script.dataset.useServiceCore = true;
+    script.dataset.useServiceCore ;
     script.defer = true;
     document.body.appendChild(script);
 

@@ -1,7 +1,6 @@
 import { Menu } from "lucide-react";
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
   DrawerDescription,
   DrawerFooter,
@@ -52,7 +51,7 @@ export default function MobileNavbar() {
                 href="#contact"
                 className="cursor-pointer  hover:text-red-500 "
               >
-                Contact
+                Contacts
               </a>
             </DrawerDescription>
           </DrawerHeader>
