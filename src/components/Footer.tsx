@@ -5,7 +5,7 @@ import { buttonVariants } from "./ui/button";
 
 export default function Footer() {
   return (
-    <footer className="px-16">
+    <footer className="px-16 grainy-dark  ">
       {/* <div className="flex justify-between items-center">
         <div>
           <button className={cn(buttonVariants())}>Whatsapp us</button>

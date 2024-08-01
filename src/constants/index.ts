@@ -1,3 +1,25 @@
+
+export const HeroImgs = [
+  {
+    title: "bussiness ",
+    imgUrl: "/hero-img.jpg",
+    // description:
+    // "Every product is selected, roasted, and tested. Honouring the quality that the manufacturers have reliably crafted",
+  },
+  {
+    title: " solutions",
+    imgUrl: "/hero-img.jpg",
+    // description:
+    // "Every product is selected, roasted, and tested. Honouring the quality that the manufacturers have reliably crafted",
+  },
+  {
+    title: "bussiness solutions",
+    imgUrl: "/hero-img.jpg",
+    // description:
+    // "Every product is selected, roasted, and tested. Honouring the quality that the manufacturers have reliably crafted",
+  },
+];
+
 export const Servicess = [
   {
     title: "SALES",

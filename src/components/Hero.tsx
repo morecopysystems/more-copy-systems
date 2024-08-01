@@ -1,25 +1,23 @@
-import Image from "next/image";
-import hero from "../../public/hero-img.jpg";
+
 import { buttonVariants } from "./ui/button";
-import Navbar from "./Navbar";
+
+import EmblaCarousel from "./EmblaCarousel";
+import { HeroImgs } from "@/constants";
+import { EmblaOptionsType } from "embla-carousel";
+
+const OPTIONS: EmblaOptionsType = { loop: true };
+const SLIDES = HeroImgs.map(({ imgUrl }) => imgUrl);
 
 export default function Hero() {
   return (
-    <header className="">
-      <main className="relative">
-        <Navbar />
-        <Image
-          src={hero}
-          alt="hero img"
-          width={2000}
-          height={700}
-          className="object-cover w-full min-w-500 max-h-[700px]"
-        />
-      </main>
-      <div className="flex justify-center  gap-6">
+    <main className="mb-20  ">
+      <header className="">
+        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      </header>
+      <div className="flex justify-center my-6 pb-10 gap-6">
         <a
           className={buttonVariants({
-            size: "lg",
+            size: "sm",
             className: "rounded-full mt-8",
           })}
           href="#products"
@@ -28,7 +26,8 @@ export default function Hero() {
         </a>
         <a
           className={buttonVariants({
-            size: "lg",
+            variant: "ghost",
+            size: "sm",
             className: "rounded-full mt-8 ",
           })}
           href="#services"
@@ -36,6 +35,6 @@ export default function Hero() {
           Our Services
         </a>
       </div>
-    </header>
+    </main>
   );
 }

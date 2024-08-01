@@ -7,7 +7,7 @@ const Testimonials = () => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://static.elfsight.com/platform/platform.js";
-    script.dataset.useServiceCore ;
+    script.dataset.useServiceCore = true ;
     script.defer = true;
     document.body.appendChild(script);
 
@@ -19,7 +19,7 @@ const Testimonials = () => {
   return (
     <article className=" ">
       <MaxWidthWrapper>
-        <h1 className="text-3xl font-bold text-center mt-32 mb-16">
+        <h1 className="text-3xl md:text-4xl font-semibold text-center mt-8  mb-16">
           What our customers say..
         </h1>
         <div

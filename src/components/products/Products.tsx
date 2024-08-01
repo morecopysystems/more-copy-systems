@@ -4,22 +4,25 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProductImg } from "./ProductImg";
 import Image from "next/image";
 
+
 export default function Products() {
   return (
-    <section id="products">
-      <MaxWidthWrapper className="flex flex-col justify-center">
-        <h1 className="text-center text-3xl font-bold my-16">Products</h1>
-        <Tabs defaultValue="account" className="w-full flex flex-col justify-center">
-          <TabsList  >
+    <section id="products" className="grainy-dark my-16 pb-12 ">
+      <MaxWidthWrapper className="flex flex-col justify-center ">
+        <h1 className="text-4xl md:text-5xl font-semibold text-center my-16">Products</h1>
+        <Tabs
+          defaultValue="photocopiers"
+          className="w-full flex flex-col justify-center "
+        >
+          <TabsList className="mb-4">
             <TabsTrigger value="photocopiers">Photocopiers</TabsTrigger>
             <TabsTrigger value="printers">Printers</TabsTrigger>
             <TabsTrigger value="scanners">Scanners</TabsTrigger>
             <TabsTrigger value="laminators">Laminators</TabsTrigger>
           </TabsList>
 
-          <TabsContent value="photocopiers" >
+          <TabsContent value="photocopiers" className="">
             <ProductImg type="Photocopiers" />
-           
           </TabsContent>
 
           <TabsContent value="printers">
@@ -34,6 +37,7 @@ export default function Products() {
             <ProductImg type="Laminators" />
           </TabsContent>
         </Tabs>
+        
       </MaxWidthWrapper>
     </section>
   );

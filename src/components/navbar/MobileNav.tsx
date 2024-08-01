@@ -21,9 +21,9 @@ export default function MobileNavbar() {
         </DrawerTrigger>
         <DrawerContent>
           <DrawerHeader>
-            <DrawerTitle className="text-center m-2">Navigations</DrawerTitle>
+            <DrawerTitle className="text-center m-2">morecopysystems</DrawerTitle>
             <DrawerDescription className="py-5">
-              <a href="/" className="cursor-pointer hover:text-red-500 ">
+              <a href="/" className="cursor-pointer hover:text-blue-500 ">
                 Home
               </a>
 
@@ -31,7 +31,7 @@ export default function MobileNavbar() {
 
               <a
                 href="#aboutus"
-                className="cursor-pointer  hover:text-red-500 "
+                className="cursor-pointer  hover:text-blue-500 "
               >
                 About
               </a>
@@ -40,7 +40,7 @@ export default function MobileNavbar() {
 
               <a
                 href="#products"
-                className="cursor-pointer  hover:text-red-500 "
+                className="cursor-pointer  hover:text-blue-500 "
               >
                 Products
               </a>
@@ -49,9 +49,9 @@ export default function MobileNavbar() {
 
               <a
                 href="#contact"
-                className="cursor-pointer  hover:text-red-500 "
+                className="cursor-pointer  hover:text-blue-500 "
               >
-                Contacts
+                Contact
               </a>
             </DrawerDescription>
           </DrawerHeader>

@@ -1,34 +1,34 @@
 import Image from "next/image";
-import logo from "../../public/logo.png";
-import MobileNavbar from "./navbar/MobileNav";
+import logo from "../../../public/logo.png";
+import MobileNavbar from "./MobileNav";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="absolute top-0 left-0 w-full py-4 px-10 md:px-28 bg-transparent z-10">
+    <nav className=" w-full px-9 lg:px-24 ">
       <div className="flex items-center justify-between ">
         <a href="/">
-          <Image src={logo} alt="logo" width={130} />
+          <Image src={logo} alt="logo" width={120} />
         </a>
         <div className=" gap-8 hidden md:flex">
-          <a href="/" className="text-white font-medium hover:text-red-200 ">
+          <a href="/" className="text-black/80  hover:text-blue-400 ">
             Home
           </a>
           <a
             href="#aboutus"
-            className="text-white font-medium hover:text-red-200 "
+            className="text-black/80  hover:text-blue-400 "
           >
             About
           </a>
           <a
             href="#products"
-            className="text-white font-medium hover:text-red-200 "
+            className="text-black/80  hover:text-blue-400 "
           >
             Products
           </a>
           <a
             href="#contact"
-            className="text-white font-medium hover:text-red-200 "
+            className="text-black/80  hover:text-blue-400 "
           >
             Contact
           </a>
