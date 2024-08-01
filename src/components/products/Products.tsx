@@ -7,9 +7,9 @@ import Image from "next/image";
 
 export default function Products() {
   return (
-    <section id="products" className="grainy-dark my-16 pb-12 ">
+    <section id="products" className="grainy-light my-16 pb-12 ">
       <MaxWidthWrapper className="flex flex-col justify-center ">
-        <h1 className="text-4xl md:text-5xl font-semibold text-center my-16">Products</h1>
+        <h1 className="text-3xl md:text-5xl font-semibold text-center my-16">Products</h1>
         <Tabs
           defaultValue="photocopiers"
           className="w-full flex flex-col justify-center "

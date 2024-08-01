@@ -10,7 +10,7 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <div className="grainy-light">
+    <div className="">
       <Hero />
       <About />
       <Products />

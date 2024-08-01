@@ -9,11 +9,11 @@ export default function Contact() {
       id="contact"
     >
       <MaxWidthWrapper>
-        <h1 className="text-4xl md:text-5xl font-semibold text-center py-9">
+        <h1 className="text-3xl md:text-5xl font-semibold text-center py-9">
           Contact us
         </h1>
         <div>
-          <h2 className="text-3xl md:text-4xl font-semibold text-start py-3">
+          <h2 className="text-xl md:text-3xl font-semibold text-start py-3">
             Store Location
           </h2>
           <MapContainer />
@@ -26,7 +26,7 @@ export default function Contact() {
             </h2>
           </div>
           <div className="flex gap-2">
-            <MapPin />
+          <MapPin />
             <p>
               Metro Pillar No : 625, P.C Chambers, Banerji Road, Ashir Bhavan
               Ln, Kacheripady, Kochi, Kerala 682018
