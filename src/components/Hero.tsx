@@ -10,11 +10,11 @@ const SLIDES = HeroImgs.map(({ imgUrl }) => imgUrl);
 
 export default function Hero() {
   return (
-    <main className="mb-20  ">
+    <main className="">
       <header className="">
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
       </header>
-      <div className="flex justify-center my-6 pb-10 gap-6">
+      <div className="flex justify-center my-6  gap-6">
         <a
           className={buttonVariants({
             size: "sm",

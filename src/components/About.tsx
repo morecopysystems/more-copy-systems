@@ -6,14 +6,14 @@ import Services from "./Services";
 export default function About() {
   return (
     <>
-      <section className=" my-16 py-16 grainy-dark " id="aboutus">
+      <section className=" my-16 py-10 grainy-dark " id="aboutus">
         <MaxWidthWrapper>
-          <h1 className="text-4xl md:text-5xl font-semibold text-center">
+          <h1 className="text-3xl md:text-5xl font-semibold text-center">
             About us
           </h1>
           <div className="flex justify-center gap-10 max-w-full flex-wrap">
             <div className="max-w-xl px-4">
-              <h2 className="text-xl font-semibold mt-10 mb-6">
+              <h2 className="text-xl font-semibold mt-10 mb-4">
                 MORE COPY SYSTEMS
               </h2>
               <p className="text-base pr-8 md:pr-16">
