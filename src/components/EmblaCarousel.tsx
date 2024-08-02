@@ -24,7 +24,7 @@ type PropType = {
 export default function EmblaCarousel(props: PropType) {
   const { slides, options } = props;
   const [emblaRef] = useEmblaCarousel(options, [
-    Autoplay({ playOnInit: true, delay: 3000 }),
+    Autoplay({ playOnInit: true, delay: 3200 }),
   ]);
 
 

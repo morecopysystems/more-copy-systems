@@ -1,8 +1,6 @@
 import MaxWidthWrapper from "../MaxWidthWrapper";
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProductImg } from "./ProductImg";
-import Image from "next/image";
 
 
 export default function Products() {

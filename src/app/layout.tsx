@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Recursive } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
-
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import Footer from "@/components/Footer";
 
 const recursive = Recursive({ subsets: ["latin"] });
 
@@ -21,7 +22,8 @@ export default function RootLayout({
       <body className={recursive.className}>
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
+        
       </body>
     </html>
   );

@@ -5,6 +5,7 @@ import EmblaCarousel from "./EmblaCarousel";
 import { HeroImgs } from "@/constants";
 import { EmblaOptionsType } from "embla-carousel";
 
+
 const OPTIONS: EmblaOptionsType = { loop: true };
 const SLIDES = HeroImgs.map(({ imgUrl }) => imgUrl);
 
@@ -13,6 +14,7 @@ export default function Hero() {
     <main className="">
       <header className="">
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+       
       </header>
       <div className="flex justify-center my-6  gap-6">
         <a
