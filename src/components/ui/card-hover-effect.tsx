@@ -2,8 +2,11 @@
 
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import service_img from "../../../public/printer-cartoon-img.png";
+
 
 export const HoverEffect = ({
   items,
@@ -56,6 +59,7 @@ export const HoverEffect = ({
           </Card>
         </Link>
       ))}
+      {/* <Image src={service_img} alt="photocopier-service" width={220} height={50} className="self-center"/> */}
     </div>
   );
 };

@@ -11,7 +11,7 @@ const SLIDES = HeroImgs.map(({ imgUrl }) => imgUrl);
 
 export default function Hero() {
   return (
-    <main className="">
+    <main className="grainy-light">
       <header className="">
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
        

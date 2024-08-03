@@ -11,24 +11,24 @@ export default function Navbar() {
           <Image src={logo} alt="logo" width={120} />
         </a>
         <div className=" gap-8 hidden md:flex">
-          <a href="/" className="text-black/80  hover:text-blue-400 ">
+          <a href="/" className="text-black/80  hover:text-red-700 ">
             Home
           </a>
           <a
             href="#aboutus"
-            className="text-black/80  hover:text-blue-400 "
+            className="text-black/80  hover:text-red-700 "
           >
             About
           </a>
           <a
             href="#products"
-            className="text-black/80  hover:text-blue-400 "
+            className="text-black/80  hover:text-red-700 "
           >
             Products
           </a>
           <a
             href="#contact"
-            className="text-black/80  hover:text-blue-400 "
+            className="text-black/80  hover:text-red-700 "
           >
             Contact
           </a>

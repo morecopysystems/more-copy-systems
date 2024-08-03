@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about_img from "../../public/printer-img.jpg";
+import about_img from "../../public/printer-cartoon-img1.png";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import Services from "./Services";
 

@@ -17,7 +17,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <article className=" ">
+    <article className="bg-white">
       <MaxWidthWrapper>
         <h1 className="text-3xl md:text-5xl font-semibold text-center mt-8  mb-16">
           What our customers say..

@@ -17,13 +17,13 @@ export default function MobileNavbar() {
     <div>
       <Drawer>
         <DrawerTrigger>
-          <Menu />
+          <Menu className="text-[#df3f4f]"/>
         </DrawerTrigger>
         <DrawerContent>
           <DrawerHeader>
             <DrawerTitle className="text-center m-2">morecopysystems</DrawerTitle>
             <DrawerDescription className="py-5">
-              <a href="/" className="cursor-pointer hover:text-blue-500 ">
+              <a href="/" className="cursor-pointer hover:text-red-700 ">
                 Home
               </a>
 
@@ -31,7 +31,7 @@ export default function MobileNavbar() {
 
               <a
                 href="#aboutus"
-                className="cursor-pointer  hover:text-blue-500 "
+                className="cursor-pointer  hover:text-red-700 "
               >
                 About
               </a>
@@ -40,7 +40,7 @@ export default function MobileNavbar() {
 
               <a
                 href="#products"
-                className="cursor-pointer  hover:text-blue-500 "
+                className="cursor-pointer  hover:text-red-700 "
               >
                 Products
               </a>
@@ -49,7 +49,7 @@ export default function MobileNavbar() {
 
               <a
                 href="#contact"
-                className="cursor-pointer  hover:text-blue-500 "
+                className="cursor-pointer  hover:text-red-700 "
               >
                 Contact
               </a>

@@ -64,7 +64,7 @@ export const ProductList = {
   Photocopiers: [
     {
       imgUrl: "/PR01 imageRUNNER 2425.jpg",
-      title: "imageRUNNER 2224N/2224",
+      title: "imageRUNNER 2425",
       desc: "imagerunner",
       // link: "/",
     },
@@ -87,7 +87,7 @@ export const ProductList = {
     },
     {
       imgUrl: "/PR05 imageRUNNER 2925 2925i.jpg",
-      title: "imageRUNNER 2925 2925i",
+      title: "imageRUNNER 2224N",
       desc: "imagerunner",
       // link: "/",
     },
