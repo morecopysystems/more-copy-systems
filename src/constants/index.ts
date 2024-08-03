@@ -56,7 +56,7 @@ export const Servicess = [
 
 interface ProductType {
   imgUrl: string;
-  title: string;
+  title?: string;
   desc?: string;
 }
 
@@ -64,7 +64,7 @@ export const ProductList = {
   Photocopiers: [
     {
       imgUrl: "/PR01 imageRUNNER 2425.jpg",
-      title: "imageRUNNER 2425",
+      title: "imageRUNNER 2224N/2224",
       desc: "imagerunner",
       // link: "/",
     },
@@ -206,6 +206,62 @@ export const ProductList = {
       imgUrl: "/printer-img.jpg",
       title: "TX-01G400L",
       desc: "imagerunner",
+      // link: "/",
+    },
+  ],
+  Inks: [
+    {
+      imgUrl: "/ink.jpg",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
+      // link: "/",
+    },
+    {
+      imgUrl: "/ink1.jpeg",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
+      // link: "/",
+    },
+    {
+      imgUrl: "/ink2.jpg",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
+      // link: "/",
+    },
+    {
+      imgUrl: "/ink3.jpeg",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
+      // link: "/",
+    },
+    {
+      imgUrl: "/ink4.jpg",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
+      // link: "/",
+    },
+    {
+      imgUrl: "/ink5.png",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
+      // link: "/",
+    },
+    {
+      imgUrl: "/ink6.jpg",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
+      // link: "/",
+    },
+    {
+      imgUrl: "/ink7.jpg",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
+      // link: "/",
+    },
+    {
+      imgUrl: "/ink8.png",
+      // title: "TX-01G400L",
+      // desc: "imagerunner",
       // link: "/",
     },
   ],

@@ -9,6 +9,7 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 export default function Footer() {
   return (
     <footer className="px-16 grainy-dark  ">
+      <FloatingWhatsApp phoneNumber="9048567007" accountName="Praveen Jose" avatar="/logo.png" />
       <div className="flex flex-col md:flex-row justify-between md:items-center py-4">
         <div className="w-[300px] mb-4">
           <a href="/">
@@ -46,7 +47,6 @@ export default function Footer() {
         </div>
       </div>
       <div className="h-[0.5px] bg-slate-700 w-full "></div>
-      <FloatingWhatsApp phoneNumber="9048567007" accountName="Praveen Jose" />
       <p className="text-slate-800 text-center text-sm py-3">
         © 2024 morecopysystems, Inc. All rights reserved.
       </p>

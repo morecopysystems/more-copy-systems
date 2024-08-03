@@ -28,7 +28,7 @@ export function ProductImg({ type }: IProductImg) {
       }}
       className="max-w-max"
     >
-      <CarouselContent className="">
+      <CarouselContent className="mt-2">
         {ProductList[type].map((_, index) => (
           <CarouselItem
             key={index}

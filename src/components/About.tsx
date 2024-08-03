@@ -12,23 +12,43 @@ export default function About() {
             About us
           </h1>
           <div className="flex justify-center gap-10 max-w-full flex-wrap">
-            <div className="max-w-xl px-4">
-              <h2 className="text-xl font-semibold mt-10 mb-4">
+            <div className="max-w-xl px-4 gap-3 flex flex-col">
+              <h2 className="text-xl font-semibold  mt-10 mb-2">
                 MORE COPY SYSTEMS
               </h2>
               <p className="text-base pr-8 md:pr-16">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-                veritatis, dolorum vel sequi explicabo placeat hic illo?
-                Blanditiis quos, suscipit odio alias repudiandae debitis, rem
-                nostrum perferendis asperiores quasi temporibus. Eligendi
-                libero, culpa dignissimos, minus perferendis unde nihil quisquam
-                hic rem veritatis iusto et quia beatae. Animi quam quae
-                accusamus eos dicta voluptatibus praesentium temporibus quasi,
-                illum iste numquam unde! Accusantium suscipit est iste, rerum
-                voluptatum ipsum? Repudiandae, ipsa amet exercitationem, saepe
-                iusto alias nihil atque architecto obcaecati recusandae eligendi
-                vitae officiis sunt rem impedit similique nostrum mollitia
-                ratione. Architecto.
+               At <span className="font-medium">More Copy Systems</span> , we are dedicated to meeting all your
+                office equipment and supply needs with a diverse range of
+                high-quality products and services. We proudly deal with leading
+                brands such as <span className="text-[#BE0006]"> Canon, Kyocera, Konica Minolta, Epson,<span className="text-black"> and </span>
+                 Brother</span>, offering a comprehensive selection including 
+                 <span className="font-medium"> photocopier machines, printers, photo papers, laminators, and
+                lamination pouches.</span>
+              </p>
+
+              <p>
+                Our product offerings extend to <span className="font-medium"> springs and sheets for spiral
+                binding, inks and toners for printers and photocopiers (both
+                genuine and compatible), spiral binders, paper cutters, and ID
+                card printing machines and cutters. We also provide essential
+                spares and consumables for photocopiers, including doors,
+                castors, trolleys, DADF/RADF units, drums, blades, coils, films,
+                boards, pressure rollers, drum units, toner units, heater units,
+                laser units, and power control boards (PCB).</span>
+              </p>
+
+              <p>
+                In addition to our sales, we offer expert <span className="font-semibold"> service, rental, and
+                exchange options</span> for photocopier machines across all brands. Our
+                goal is to ensure you receive reliable and efficient solutions
+                tailored to your specific needs, keeping your office running
+                smoothly and effectively.
+              </p>
+
+              <p className="font-medium">
+                Choose More Copy Systems for a comprehensive approach to your
+                office equipment and supply requirements, backed by quality
+                products and exceptional service.
               </p>
             </div>
             <Image

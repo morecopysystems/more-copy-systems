@@ -17,6 +17,7 @@ export default function Products() {
             <TabsTrigger value="printers">Printers</TabsTrigger>
             <TabsTrigger value="scanners">Scanners</TabsTrigger>
             <TabsTrigger value="laminators">Laminators</TabsTrigger>
+            <TabsTrigger value="inks">Inks & Cartridges</TabsTrigger>
           </TabsList>
 
           <TabsContent value="photocopiers" className="">
@@ -33,6 +34,10 @@ export default function Products() {
 
           <TabsContent value="laminators">
             <ProductImg type="Laminators" />
+          </TabsContent>
+        
+          <TabsContent value="inks">
+            <ProductImg type="Inks" />
           </TabsContent>
         </Tabs>
         
