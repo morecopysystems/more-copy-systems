@@ -59,7 +59,7 @@ export const HoverEffect = ({
           </Card>
         </Link>
       ))}
-      {/* <Image src={service_img} alt="photocopier-service" width={220} height={50} className="self-center"/> */}
+      <Image src={service_img} alt="photocopier-service" width={220} height={50} className="block md:hidden"/>
     </div>
   );
 };

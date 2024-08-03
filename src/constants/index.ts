@@ -258,6 +258,8 @@ export const ProductList = {
       desc: "",
       // link: "/",
     },
+  ],
+  Papers: [
     {
       imgUrl: "/ink8.png",
       title: "TX-01G400L",
