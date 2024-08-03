@@ -1,7 +1,7 @@
 export const HeroImgs = [
   {
     title: "bussiness ",
-    imgUrl: "/hero-img.jpg",
+    imgUrl: "/hero-img-1.jpg",
     // description:
     // "Every product is selected, roasted, and tested. Honouring the quality that the manufacturers have reliably crafted",
   },
@@ -13,7 +13,7 @@ export const HeroImgs = [
   },
   {
     title: "bussiness solutions",
-    imgUrl: "/hero-img.jpg",
+    imgUrl: "/hero-img-2.jpg",
     // description:
     // "Every product is selected, roasted, and tested. Honouring the quality that the manufacturers have reliably crafted",
   },
