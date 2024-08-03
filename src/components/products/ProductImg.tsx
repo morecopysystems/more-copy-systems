@@ -26,7 +26,7 @@ export function ProductImg({ type }: IProductImg) {
       opts={{
         align: "start",
       }}
-      className="max-w-max"
+      className="max-w-max "
     >
       <CarouselContent className="mt-2">
         {ProductList[type].map((_, index) => (

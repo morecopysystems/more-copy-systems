@@ -7,6 +7,7 @@ import Products from "@/components/products/Products";
 import Services from "@/components/Services";
 
 import Testimonials from "@/components/Testimonials";
+import { TypewriterEffectDemo } from "@/components/TypewriterEffectDemo";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Products />
       <Testimonials />
       <Contact />
+      <TypewriterEffectDemo/>
     </div>
   );
 }

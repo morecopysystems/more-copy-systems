@@ -8,11 +8,7 @@ import { HeroImgs } from "@/constants";
 import Image from "next/image";
 import { SLIDES } from "./Slides";
 
-type HeroImgType = {
-  // title: string;
-  imgUrl: string;
-  // description?: string;
-};
+
 
 type PropType = {
   slides: string[]
@@ -33,13 +29,13 @@ export default function EmblaCarousel(props: PropType) {
       <div className="embla__viewport overflow-hidden" ref={emblaRef}>
         <div className="embla__container flex ">
         {slides.map((slide,i) => (
-            <div className="embla__slide flex-none basis-full min-w-0" key={i}>
+            <div className="embla__slide flex-none basis-full min-w-0 " key={i}>
               <Image
                 src={slide}
                 alt={slide}
                 width={2000}
                 height={700}
-                className="object-cover w-full min-w-400 max-h-[700px]"
+                className="object-cover w-full max-h-[600px] rounded-2xl"
               />
             </div>
           ))}

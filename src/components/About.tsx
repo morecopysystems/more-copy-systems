@@ -11,7 +11,7 @@ export default function About() {
           <h1 className="text-3xl md:text-5xl font-semibold text-center">
             About us
           </h1>
-          <div className="flex justify-center gap-10 max-w-full flex-wrap">
+          <div className="flex justify-center gap-8 max-w-full flex-wrap">
             <div className="max-w-xl px-4 gap-3 flex flex-col">
               <h2 className="text-xl font-semibold  mt-10 mb-2">
                 MORE COPY SYSTEMS
@@ -55,7 +55,7 @@ export default function About() {
               src={about_img}
               alt="about"
               width={400}
-              className="object-contain pl-8"
+              className="object-contain pl-8 md:w-[500px]"
             />
           </div>
         </MaxWidthWrapper>

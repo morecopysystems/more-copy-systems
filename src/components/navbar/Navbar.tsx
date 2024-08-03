@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className=" w-full px-9 lg:px-24 ">
+    <nav className=" w-full px-9 lg:px-24 sticky top-0 bg-white shadow-md z-30">
       <div className="flex items-center justify-between ">
         <a href="/">
-          <Image src={logo} alt="logo" width={120} />
+          <Image src={logo} alt="logo" width={130} />
         </a>
         <div className=" gap-8 hidden md:flex">
-          <a href="/" className="text-black/80  hover:text-red-700 ">
+          <a href="/" className="text-black/80  hover:text-red-900 ">
             Home
           </a>
           <a

@@ -20,13 +20,16 @@ export default function Footer() {
 
           <div className="flex gap-2 pt-3">
             <Link href="https://www.facebook.com/profile.php?id=100094021993089">
-              <Image src="/facebook.png" alt="fb" width={30} height={30} />
+              <Image src="/facebook.png" alt="facebook" width={30} height={30} />
             </Link>
             <Link href="https://www.instagram.com/more_copy_systems/">
-              <Image src="/instagram.png" alt="ig" width={30} height={30} />
+              <Image src="/instagram.png" alt="instagram" width={30} height={30} />
             </Link>
-            <Link href="morecopysystems@gmail.com">
+            <Link href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnXVQcfxWxTwWKVbJgWZCdVbHzrLqMtpCpNXVMhjSGxpBFrFkcGWHMfqsHJrLRXNqxbwtg">
               <Image src="/mail.png" alt="mail" width={30} height={30} />
+            </Link>
+            <Link href="https://www.linkedin.com/in/more-copy-systems-223818281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <Image src="/linkedin.png" alt="linkedin" width={30} height={30} />
             </Link>
           </div>
         </div>
