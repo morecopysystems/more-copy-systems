@@ -27,9 +27,9 @@ export function TypewriterEffectDemo() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[15rem] ">
+    <div className="mt-10  ">
       <TypewriterEffect words={words} />
-      <div className="flex justify-center my-6  gap-6">
+      <div className="flex justify-center mb-6  gap-6">
         <a
           className={buttonVariants({
             size: "sm",

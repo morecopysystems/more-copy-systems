@@ -34,8 +34,8 @@ export default function EmblaCarousel(props: PropType) {
                 src={slide}
                 alt={slide}
                 width={2000}
-                height={700}
-                className="object-cover w-full max-h-[600px] rounded-2xl"
+                height={600}
+                className="object-cover w-full max-h-[250px]  md:max-h-[600px] rounded-2xl"
               />
             </div>
           ))}
