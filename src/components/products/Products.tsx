@@ -5,7 +5,7 @@ import { ProductImg } from "./ProductImg";
 
 export default function Products() {
   return (
-    <section id="products" className="grainy-light my-16 pb-12 ">
+    <section id="products" className="grainy-light mt-16 mb-8 ">
       <MaxWidthWrapper className="flex flex-col justify-center ">
         <h1 className="text-3xl md:text-5xl font-semibold text-center my-16">Products</h1>
         <Tabs

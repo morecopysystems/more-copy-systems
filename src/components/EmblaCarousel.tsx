@@ -29,13 +29,13 @@ export default function EmblaCarousel(props: PropType) {
       <div className="embla__viewport overflow-hidden" ref={emblaRef}>
         <div className="embla__container flex ">
         {slides.map((slide,i) => (
-            <div className="embla__slide flex-none basis-full min-w-0 " key={i}>
+            <div className="embla__slide flex-none basis-full min-w-0 h-[30rem] lg:h-[40rem]" key={i}>
               <Image
                 src={slide}
                 alt={slide}
                 width={2000}
-                height={600}
-                className="object-cover w-full max-h-[250px]  md:max-h-[600px] rounded-2xl"
+                height={700}
+                className="object-cover w-full h-full  md:h-[700px] rounded-2xl"
               />
             </div>
           ))}

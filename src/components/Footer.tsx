@@ -9,7 +9,11 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 export default function Footer() {
   return (
     <footer className="px-16 grainy-dark  ">
-      <FloatingWhatsApp phoneNumber="9048567007" accountName="Praveen Jose" avatar="/logo.png" />
+      <FloatingWhatsApp
+        phoneNumber="9847039467"
+        accountName="Francis Alumkal"
+        avatar="/logo.png"
+      />
       <div className="flex flex-col md:flex-row justify-between md:items-center py-4">
         <div className="w-[300px] mb-4">
           <a href="/">
@@ -20,25 +24,72 @@ export default function Footer() {
 
           <div className="flex gap-2 pt-3">
             <Link href="https://www.facebook.com/profile.php?id=100094021993089">
-              <Image src="/facebook.png" alt="facebook" width={30} height={30} />
+              <Image
+                src="/facebook.png"
+                alt="facebook"
+                width={30}
+                height={30}
+              />
             </Link>
             <Link href="https://www.instagram.com/more_copy_systems/">
-              <Image src="/instagram.png" alt="instagram" width={30} height={30} />
+              <Image
+                src="/instagram.png"
+                alt="instagram"
+                width={30}
+                height={30}
+              />
             </Link>
             <Link href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnXVQcfxWxTwWKVbJgWZCdVbHzrLqMtpCpNXVMhjSGxpBFrFkcGWHMfqsHJrLRXNqxbwtg">
               <Image src="/mail.png" alt="mail" width={30} height={30} />
             </Link>
             <Link href="https://www.linkedin.com/in/more-copy-systems-223818281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-              <Image src="/linkedin.png" alt="linkedin" width={30} height={30} />
+              <Image
+                src="/linkedin.png"
+                alt="linkedin"
+                width={30}
+                height={30}
+              />
             </Link>
           </div>
         </div>
 
-        <div className="flex flex-col mb-4 md:flex-row md:gap-7">
-          <a  href="/" className="text-sm">Home</a>
-          <a href="#products" className="text-sm">Products</a>
-          <a href="#aboutus" className="text-sm">About </a>
-          <a href="#services" className="text-sm">Services</a>
+        <div className="flex items-start flex-col mb-4 md:flex-row md:gap-7">
+          <a
+            className={buttonVariants({
+              size: "a",
+              variant: "link",
+            })}
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            className={buttonVariants({
+              size: "a",
+              variant: "link",
+            })}
+            href="#products"
+          >
+            Products
+          </a>
+          <a
+            className={buttonVariants({
+              size: "a",
+              variant: "link",
+            })}
+            href="#aboutus"
+          >
+            About
+          </a>
+          <a
+            className={buttonVariants({
+              size: "a",
+              variant: "link",
+            })}
+            href="#services"
+          >
+            Services
+          </a>
         </div>
 
         <div className="max-w-[300px] ">

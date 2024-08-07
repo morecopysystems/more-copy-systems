@@ -35,7 +35,7 @@ export function ProductImg({ type }: IProductImg) {
             className=" sm:basis-1/1 md:basis-1/2 lg:basis-1/3  xl:basis-1/4 "
           >
             <div className="p-1  ">
-              <Card className="">
+              <Card className="min-w-52">
                 <CardContent className="flex  flex-col aspect-square items-center justify-center p-6 overflow-hidden ">
                   <Image
                     src={_.imgUrl}
@@ -48,7 +48,7 @@ export function ProductImg({ type }: IProductImg) {
 
                   <Accordion type="single" collapsible>
                     <AccordionItem value="item-1">
-                      <AccordionTrigger className="text-xs">Description</AccordionTrigger>
+                      <AccordionTrigger className="text-xs">Specifications</AccordionTrigger>
                       <AccordionContent>
                         <p className=" text-xs">{_.desc}</p>
                       </AccordionContent>

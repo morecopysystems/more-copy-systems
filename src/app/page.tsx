@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import { Brands } from "@/components/Brands";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -15,9 +16,9 @@ export default function Home() {
       <Hero />
       <About />
       <Products />
+      <Brands/>
       <Testimonials />
       <Contact />
-      <TypewriterEffectDemo/>
     </div>
   );
 }

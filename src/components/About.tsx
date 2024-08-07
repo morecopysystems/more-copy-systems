@@ -32,7 +32,7 @@ export default function About() {
                 genuine and compatible), spiral binders, paper cutters, and ID
                 card printing machines and cutters. We also provide essential
                 spares and consumables for photocopiers, including doors,
-                castors, trolleys, DADF/RADF units, drums, blades, coils, films,
+                paper tray(cassettes), trolleys, DADF/RADF units, drums, blades, coils, films,
                 boards, pressure rollers, drum units, toner units, heater units,
                 laser units, and power control boards (PCB).</span>
               </p>
