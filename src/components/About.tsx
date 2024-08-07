@@ -20,7 +20,7 @@ export default function About() {
                At <span className="font-medium">More Copy Systems</span> , we are dedicated to meeting all your
                 office equipment and supply needs with a diverse range of
                 high-quality products and services. We proudly deal with leading
-                brands such as <span className="text-[#BE0006]"> Canon, Kyocera, Konica Minolta, Epson,<span className="text-black"> and </span>
+                brands such as <span className="text-[#BE0006]"> Canon, Kyocera, Konica Minolta, Xerox, Epson,<span className="text-black"> and </span>
                  Brother</span>, offering a comprehensive selection including 
                  <span className="font-medium"> photocopier machines, printers, photo papers, laminators, and
                 lamination pouches.</span>

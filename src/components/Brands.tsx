@@ -25,6 +25,10 @@ const brands = [
     logo: "/konicapng.png",
   },
   {
+    name: "Xerox",
+    logo: "/xeroxpng.png",
+  },
+  {
     name: "Epson",
     logo: "/epsonpng.png",
   },
