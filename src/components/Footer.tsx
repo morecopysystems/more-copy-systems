@@ -12,7 +12,7 @@ export default function Footer() {
       <FloatingWhatsApp
         phoneNumber="9847039467"
         accountName="Francis Alumkal"
-        avatar="/logo.jpg"
+        avatar="/whatsappdp.jpeg"
       />
       <div className="flex flex-col md:flex-row justify-between md:items-center py-4">
         <div className="w-[300px] mb-4">

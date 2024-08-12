@@ -7,7 +7,7 @@ export const HeroImgs = [
   },
   {
     title: " solutions",
-    imgUrl: "/hero-img.jpg",
+    imgUrl: "/hero-imgg.jpg",
     // description:
     // "Every product is selected, roasted, and tested. Honouring the quality that the manufacturers have reliably crafted",
   },
@@ -73,7 +73,6 @@ export const ProductList = {
       imgUrl: "/PR02 imageRUNNER 1643i II  1643iF II.jpg",
       desc: "Description",
       // link: "/",
-      
     },
     {
       title: "Canon imageRUNNER C3326i",
@@ -309,54 +308,56 @@ export const ProductList = {
 
   Scanners: [
     {
-      imgUrl: "/printer-img.jpg",
-      title: "TX-01G400L",
-      desc: "Description",
+      imgUrl: "/scanner.jpg",
+      title: "Epson DS-530 II",
+      desc: "THE COMPACT, POWER-PACKED A4 BUSINESS SCANNER. Discover scanning that improves efficiency, accuracy and data reliability of every scan with the WorkForce DS-530II. Packed with intelligent features like Auto Document Scan and Double Feed Detection Skip, this scanner never skips any information to ensure a high level of data integrity. With a 50-page ADF and the ability to scan at up to 35 ppm / 70 ipm, it offers a wide range of media handling options that enable you to rapidly capture, index, store and share business documents.",
       // link: "/",
     },
     {
-      imgUrl: "/printer-img.jpg",
-      title: "TX-01G400L",
-      desc: "Description",
-      // link: "/",
-    },
-    {
-      imgUrl: "/printer-img.jpg",
-      title: "TX-01G400L",
-      desc: "Description",
-      // link: "/",
-    },
-    {
-      imgUrl: "/printer-img.jpg",
-      title: "TX-01G400L",
-      desc: "Description",
+      imgUrl: "/scanner.jpeg",
+      title: "Canon DR-C225 ",
+      desc: " Maximize desk space with the slim & smart compact scanner. Feeder capacity: 30 sheets, Speed: 25ppm/50ipm, 600 dpi in scanning resolution  ",
       // link: "/",
     },
   ],
 
   Laminators: [
     {
-      imgUrl: "/printer-img.jpg",
-      title: "TX-01G400L",
-      desc: "Description",
+      imgUrl: "/Laminator.jpg",
+      title: "Laminating Metal Machine",
+      desc: "Professional Lamination/Laminating Metal Machine | Hot & Cold | A3 Laminator 12.6 inch",
+      // link: "/",
+    },
+  ],
+  Binders: [
+    {
+      imgUrl: "/binders (1).jpg",
+      title: "Spiral Binding Machine",
+      desc: "Spiral Binding Machine A4 / 14-16 Sheets of 70 GSM & 40 Holes Heavy Duty Machine ",
       // link: "/",
     },
     {
-      imgUrl: "/printer-img.jpg",
-      title: "TX-01G400L",
-      desc: "Description",
+      imgUrl: "/binders (2).jpg",
+      title: "Spiral Binding Machine",
+      desc: "",
       // link: "/",
     },
     {
-      imgUrl: "/printer-img.jpg",
-      title: "TX-01G400L",
-      desc: "Description",
+      imgUrl: "/binders (3).jpg",
+      title: "Spiral Binding Machine",
+      desc: "",
       // link: "/",
     },
     {
-      imgUrl: "/printer-img.jpg",
-      title: "TX-01G400L",
-      desc: "Description",
+      imgUrl: "/binders (4).jpg",
+      title: "Spiral Binding Machine",
+      desc: "",
+      // link: "/",
+    },
+    {
+      imgUrl: "/binders (5).jpg",
+      title: "Spiral Binding Machine",
+      desc: "",
       // link: "/",
     },
   ],

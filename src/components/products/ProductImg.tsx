@@ -26,7 +26,7 @@ export function ProductImg({ type }: IProductImg) {
       opts={{
         align: "start",
       }}
-      className="max-w-max "
+      className="w-full"
     >
       <CarouselContent className="mt-2">
         {ProductList[type].map((_, index) => (
@@ -34,29 +34,37 @@ export function ProductImg({ type }: IProductImg) {
             key={index}
             className=" sm:basis-1/1 md:basis-1/2 lg:basis-1/3  xl:basis-1/4 "
           >
-            <div className="p-1  ">
-              <Card className="min-w-52">
-                <CardContent className="flex  flex-col aspect-square items-center justify-center p-6 overflow-hidden ">
+            {/* <div className="p-1  "> */}
+            <Card className="">
+              <CardContent className="flex flex-col  items-center justify-between p-6  overflow-hidden ">
+                <div className="w-full h-full max-w-sm aspect-square max-h-[250px] ">
                   <Image
                     src={_.imgUrl}
                     alt="printer"
-                    width={500}
-                    height={500}
-                    className="object-cover max-w-"
+                    width={720}
+                    height={420}
+                    className="  w-full max-h-3/4 h-full"
                   />
-                  <h1 className="mt-2 cursor-pointer">{_.title}</h1>
+                </div>
+                <div>
+                  <h1 className="mt-2 cursor-pointer text-[15px] font-semibold">
+                    {_.title}
+                  </h1>
 
                   <Accordion type="single" collapsible>
                     <AccordionItem value="item-1">
-                      <AccordionTrigger className="text-xs">Specifications</AccordionTrigger>
+                      <AccordionTrigger className="text-xs">
+                        Specifications
+                      </AccordionTrigger>
                       <AccordionContent>
-                        <p className=" text-xs">{_.desc}</p>
+                        <p className="text-xs">{_.desc}</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </CardContent>
+            </Card>
+            {/* </div> */}
           </CarouselItem>
         ))}
       </CarouselContent>

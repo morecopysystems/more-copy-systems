@@ -5,7 +5,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 export default function Contact() {
   return (
     <section
-      className="my-20 grainy-dark  "
+      className="mb-20 grainy-dark  "
       id="contact"
     >
       <MaxWidthWrapper>
