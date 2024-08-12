@@ -10,9 +10,9 @@ export default function Products() {
         <h1 className="text-3xl md:text-5xl font-semibold text-center my-16">Products</h1>
         <Tabs
           defaultValue="photocopiers"
-          className="w-full flex flex-col justify-center "
+          className="w-full flex flex-col justify-center"
         >
-          <TabsList className="mb-4">
+          <TabsList className="mb-12 md:mb-4">
             <TabsTrigger value="photocopiers">Photocopiers</TabsTrigger>
             <TabsTrigger value="printers">Printers</TabsTrigger>
             <TabsTrigger value="scanners">Scanners</TabsTrigger>
