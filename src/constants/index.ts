@@ -42,7 +42,7 @@ export const Servicess = [
     title: "RENTAL",
     link: "/",
     description:
-      "We provide flexible printer and photocopier rentals with included installation, maintenance, and support. Choose from short-term or long-term options with no upfront costs.",
+      "We provide flexible printer and photocopier rentals with included installation, maintenance, and support. Choose from short-term or long-term options.",
   },
   {
     title: "EXCHANGE",
@@ -370,7 +370,7 @@ export const ProductList = {
   ],
   Inks: [
     {
-      imgUrl: "/INKS AND CARTRIDGES .jpg",
+      imgUrl: "/INKS AND CARTRIDGES.jpg",
       title: "",
       desc: "Description",
       // link: "/",
