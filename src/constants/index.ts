@@ -23,31 +23,32 @@ export const Servicess = [
   {
     title: "SALES",
     link: "/",
-    description: "Every product is seleacturers have reliably crafted",
+    description:
+      "Explore our premium range of photocopiers, printers, and printing equipment. Perfect for offices, schools, and home use, our products offer high-quality, efficient, and cost-effective printing solutions for all your needs.",
   },
   {
     title: "SERVICES",
     link: "/",
     description:
-      "Every product is selected, roasted, and testedrs have reliably crafted",
+      "We offer installation, maintenance, and repair services to keep your equipment running smoothly, with expert support to handle all your needs and minimize interruptions.",
   },
   {
     title: "SPARES & CONSUMABLES",
     link: "/",
     description:
-      "Every product is selected, roasted, and testedrs have reliably crafted",
+      "We offer high-quality spares and consumables for printers and photocopiers, including ink, toner, paper, and replacement parts, to ensure optimal performance and minimal downtime.",
   },
   {
     title: "RENTAL",
     link: "/",
     description:
-      "Every product is selected, roasted, and tested. Honouring the quality that the manufacturers have reliably crafted",
+      "We provide flexible printer and photocopier rentals with included installation, maintenance, and support. Choose from short-term or long-term options with no upfront costs.",
   },
   {
     title: "EXCHANGE",
     link: "/",
     description:
-      "Every product is selected, roasted, and tested. Honouring the quality that the manufacturers have reliably crafted",
+      "Our exchange program lets you trade in old printers and photocopiers for credit towards new models, keeping your business updated with minimal cost.",
   },
 ];
 
@@ -62,6 +63,12 @@ interface ProductType {
 
 export const ProductList = {
   Photocopiers: [
+    {
+      title: "Xerox AltaLink C8130",
+      imgUrl: "/Xerox Altalink C8130 .jpg",
+      desc: "Description",
+      // link: "/",
+    },
     {
       title: "Canon imageRUNNER 2425",
       imgUrl: "/PR01 imageRUNNER 2425.jpg",
@@ -92,37 +99,37 @@ export const ProductList = {
       // link: "/",
     },
     {
-      title: "PR06 bizhub 306i 266i 226i",
+      title: "Konica Minolta bizhub 306i/266i/226i",
       imgUrl: "/PR06 bizhub 306i 266i 226i.jpg",
       desc: "Description",
       // link: "/",
     },
     {
-      title: "PR07 bizhub  367 287 227",
+      title: "Konica Minolta bizhub 367/287/227",
       imgUrl: "/PR07 bizhub  367 287 227.jpg",
       desc: "Description",
       // link: "/",
     },
     {
-      title: "PR08 bizhub  225i 205i",
+      title: "Konica Minolta bizhub 225i/205i",
       imgUrl: "/PR08 bizhub  225i 205i.jpg",
       desc: "Description",
       // link: "/",
     },
     {
-      title: "PR09 TASKalfa MZ3200i",
+      title: "Kyocera TASKalfa MZ3200i",
       imgUrl: "/PR09 TASKalfa MZ3200i.jpg",
       desc: "Description",
       // link: "/",
     },
     {
-      title: "PR10 TASKalfa 2020 2320 2321",
+      title: "Kyocera TASKalfa 2020/2320/2321",
       imgUrl: "/PR10 TASKalfa 2020 2320 2321.jpg",
       desc: "Description",
       // link: "/",
     },
     {
-      title: "PR11 ECOSYS M2040dn.jpg",
+      title: "Kyocera ECOSYS M2040dn",
       imgUrl: "/PR11 ECOSYS M2040dn.jpg",
       desc: "Description",
       // link: "/",
@@ -133,7 +140,7 @@ export const ProductList = {
     {
       title: "Canon PIXMA G2730",
       imgUrl: "/canonPIXMAG2730.jpg",
-      desc: "Description",
+      desc: "",
       // link: "/",
     },
     {
@@ -235,7 +242,7 @@ export const ProductList = {
     {
       title: "Epson PictureMate PM520",
       imgUrl: "/PM-520-01.png",
-      desc: "Description",
+      desc: '⦁	Print resolution of 5760 dpi\n⦁	Print speed - 36 secs per 10cm x 15cm (4" x 6") borderless photo\n⦁	6.9 cm (2.7") LCD screen\n⦁	Custom template for passport and Visa photos \n⦁	Economical 8-up (2/4/6/8) Passport size and 16-up Stamp-size photos\n⦁	PictBridge, USB direct, built-in memory card slot\n⦁	Wireless printing with Epson iPrint and Apple AirPrint',
       // link: "/",
     },
     {

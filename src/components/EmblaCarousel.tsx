@@ -23,7 +23,6 @@ export default function EmblaCarousel(props: PropType) {
     Autoplay({ playOnInit: true, delay: 3200 }),
   ]);
 
-
   return (
     <div className="embla max-w-full">
       <div className="embla__viewport overflow-hidden" ref={emblaRef}>
@@ -35,7 +34,7 @@ export default function EmblaCarousel(props: PropType) {
                 alt={slide}
                 width={2000}
                 height={700}
-                className="object-cover w-full h-full  md:h-[700px] rounded-2xl"
+                className="object-cover w-full h-full sm:h-[600px] md:h-[700px] rounded-2xl"
               />
             </div>
           ))}

@@ -8,7 +8,7 @@ import { useState } from "react";
 import service_img from "../../../public/printer-cartoon-img.png";
 
 
-export const HoverEffect = ({
+export const  HoverEffect = ({
   items,
   className,
 }: {
@@ -54,7 +54,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card className="">
-            <CardTitle>{item.title}</CardTitle>
+            <CardTitle className="text-lg">{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
         </Link>

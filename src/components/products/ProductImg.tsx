@@ -57,7 +57,7 @@ export function ProductImg({ type }: IProductImg) {
                         Specifications
                       </AccordionTrigger>
                       <AccordionContent>
-                        <p className="text-xs">{_.desc}</p>
+                        <p className="text-xs whitespace-pre-line">{_.desc}</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
