@@ -65,7 +65,7 @@ export const ProductList = {
   Photocopiers: [
     {
       title: "Xerox AltaLink C8130",
-      imgUrl: "/Xerox Altalink C8130 .jpg",
+      imgUrl: "/Xerox Altalink C8130.jpg",
       desc: "Description",
       // link: "/",
     },
