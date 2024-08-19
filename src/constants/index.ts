@@ -22,38 +22,37 @@ export const HeroImgs = [
 export const Servicess = [
   {
     title: "SALES",
-    link: "/",
+    link: "/sales",
     description:
       "Explore our premium range of photocopiers, printers, and printing equipment. Perfect for offices, schools, and home use, our products offer high-quality, efficient, and cost-effective printing solutions for all your needs.",
   },
   {
     title: "SERVICES",
-    link: "/",
+    link: "/services",
     description:
       "We offer installation, maintenance, and repair services to keep your equipment running smoothly, with expert support to handle all your needs and minimize interruptions.",
   },
   {
     title: "SPARES & CONSUMABLES",
-    link: "/",
+    link: "/spares",
     description:
       "We offer high-quality spares and consumables for printers and photocopiers, including ink, toner, paper, and replacement parts, to ensure optimal performance and minimal downtime.",
   },
   {
     title: "RENTAL",
-    link: "/",
+    link: "/rental",
     description:
       "We provide flexible printer and photocopier rentals with included installation, maintenance, and support. Choose from short-term or long-term options.",
   },
   {
     title: "EXCHANGE",
-    link: "/",
+    link: "/exchange",
     description:
       "Our exchange program lets you trade in old printers and photocopiers for credit towards new models, keeping your business updated with minimal cost.",
   },
 ];
 
-// <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-// <div class="elfsight-app-d28f778e-5301-4d6a-bebf-f597ff7bf0f1" data-elfsight-app-lazy></div>
+
 
 interface ProductType {
   imgUrl: string;
