@@ -379,7 +379,7 @@ export const ProductList = {
   Papers: [
     {
       imgUrl: "/ink8.png",
-      title: "TX-01G400L",
+      title: "Copier Papers",
       desc: "Description",
       // link: "/",
     },
