@@ -193,7 +193,7 @@ export const ProductList = {
     },
     {
       title: "Epson EcoTank L130",
-      imgUrl: "/L130.png",
+      imgUrl: "/L130.jpg",
       desc: "⦁ Print resolution of 5760 dpi\n⦁ Print speed: 27 ppm (Black), 15 ppm (Color)\n⦁ ISO print speed: 7 ipm (Black), 3.5 ipm (Color)",
       // link: "/",
     },
@@ -223,7 +223,7 @@ export const ProductList = {
     },
     {
       title: "Epson EcoTank M200/M205",
-      imgUrl: "/M200_550px.png",
+      imgUrl: "/Epson EcoTank M200.jpg",
       desc: "⦁ Print resolution of 1440 dpi\n⦁ High print speed of 34 ppm\n⦁ USB 2.0 connectivity\n⦁ 30-page Automatic Document Feeder\n⦁ M200: USB + Network only\n⦁ M205: USB + Wi-Fi only",
       // link: "/",
     },
@@ -317,13 +317,13 @@ export const ProductList = {
     {
       imgUrl: "/scanner.jpg",
       title: "Epson DS-530 II",
-      desc: "THE COMPACT, POWER-PACKED A4 BUSINESS SCANNER. Discover scanning that improves efficiency, accuracy and data reliability of every scan with the WorkForce DS-530II. Packed with intelligent features like Auto Document Scan and Double Feed Detection Skip, this scanner never skips any information to ensure a high level of data integrity. With a 50-page ADF and the ability to scan at up to 35 ppm / 70 ipm, it offers a wide range of media handling options that enable you to rapidly capture, index, store and share business documents.",
+      desc: "⦁ Compact A4 business scanner\n⦁ Auto Document Scan and Double Feed Detection Skip\n⦁ 50-page ADF\n⦁ Scan speed: Up to 35 ppm / 70 ipm\n⦁ Wide range of media handling options for efficient document capture and sharing",
       // link: "/",
     },
     {
       imgUrl: "/scanner.jpeg",
       title: "Canon DR-C225 ",
-      desc: " Maximize desk space with the slim & smart compact scanner. Feeder capacity: 30 sheets, Speed: 25ppm/50ipm, 600 dpi in scanning resolution  ",
+      desc: "⦁ Maximize desk space with its slim design\n⦁ Feeder capacity: 30 sheets\n⦁ Speed: 25 ppm / 50 ipm\n⦁ Scanning resolution: 600 dpi",
       // link: "/",
     },
   ],
