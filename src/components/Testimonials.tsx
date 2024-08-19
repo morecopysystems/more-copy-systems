@@ -28,7 +28,7 @@ const Testimonials = () => {
               alt="google bussinee"
               width={200}
               height={200}
-              className="w-28 cursor-pointer"
+              className="w-20 cursor-pointer"
             />
           </a>
           <div className="flex flex-col justify-center items-center gap-2">
