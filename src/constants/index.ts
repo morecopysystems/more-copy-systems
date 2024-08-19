@@ -380,7 +380,7 @@ export const ProductList = {
     {
       imgUrl: "/ink8.png",
       title: "Copier Papers",
-      desc: "Description",
+      desc: "Copier Paper Supply!\n\nSIZE - A4, FS, A3 ....\nGSM - 70, 75, 80, 90 ....\n\n* Manufactured using environmentally sustainable practices\n* Premium quality multipurpose office paper\n* Smooth runnability in all digital copiers & printers\n* Excellent for double-side printing\n* Crisp image formation with superior photo imaging\n* Faster drying for quicker handling\n* Elemental Chlorine Free (ECF) - SAFE.GREEN.CLEAN\n* Brighter & whiter copy/print/fax\n\nCopier Paper and High Quality Office Paper\n\nWidest range of cut size premium quality office & copier paper made using fiber obtained from social farm forestry, designed for high-end versatile printing and copying applications. Includes products for high-end color printing, black & white printing, photo copying, pamphlet printing, letterheads, and legal & accounting documentation.\n\n◦ Premium multipurpose office paper\n◦ Manufactured from plantation wood pulp: 100% ECF\n◦ High whiteness & brightness - acid-free long-lasting paper\n◦ ColorLok technology for bolder black, vivid colors & faster drying\n◦ Highly automated manufacturing technology with TWT\n◦ Suitable for any job on office printers (xerography, inkjet, laserjet, fax)\n◦ Ideal for impressive color printing, training manuals, and assignments.\n\nTested under standard conditions and serving you with pride. Outperforms any ordinary paper.\n\n♻️ Recyclable paper",
       // link: "/",
     },
   ],
@@ -388,7 +388,7 @@ export const ProductList = {
     {
       imgUrl: "/ink8.png",
       title: "Paper Cutters",
-      desc: "Copier Paper Supply!\n\nSIZE - A4, FS, A3 ....\nGSM - 70, 75, 80, 90 ....\n\n* Manufactured using environmentally sustainable practices\n* Premium quality multipurpose office paper\n* Smooth runnability in all digital copiers & printers\n* Excellent for double-side printing\n* Crisp image formation with superior photo imaging\n* Faster drying for quicker handling\n* Elemental Chlorine Free (ECF) - SAFE.GREEN.CLEAN\n* Brighter & whiter copy/print/fax\n\nCopier Paper and High Quality Office Paper\n\nWidest range of cut size premium quality office & copier paper made using fiber obtained from social farm forestry, designed for high-end versatile printing and copying applications. Includes products for high-end color printing, black & white printing, photo copying, pamphlet printing, letterheads, and legal & accounting documentation.\n\n◦ Premium multipurpose office paper\n◦ Manufactured from plantation wood pulp: 100% ECF\n◦ High whiteness & brightness - acid-free long-lasting paper\n◦ ColorLok technology for bolder black, vivid colors & faster drying\n◦ Highly automated manufacturing technology with TWT\n◦ Suitable for any job on office printers (xerography, inkjet, laserjet, fax)\n◦ Ideal for impressive color printing, training manuals, and assignments.\n\nTested under standard conditions and serving you with pride. Outperforms any ordinary paper.\n\n♻️ Recyclable paper",
+      desc: "",
       // link: "/",
     },
   ],
