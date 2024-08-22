@@ -70,7 +70,7 @@ export const TypewriterEffect = ({
     );
   };
   return (
-    <div
+    <h1
       className={cn(
         "text-2xl md:text-3xl lg:text-5xl font-bold text-center ",
         className
@@ -94,7 +94,7 @@ export const TypewriterEffect = ({
           cursorClassName
         )}
       ></motion.span>
-    </div>
+    </h1>
   );
 };
 

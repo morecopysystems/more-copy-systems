@@ -4,29 +4,26 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 
 export default function Contact() {
   return (
-    <section
-      className="mb-20 grainy-dark  "
-      id="contact"
-    >
+    <section className="mb-20 grainy-dark  " id="contact">
       <MaxWidthWrapper>
-        <h1 className="text-3xl md:text-5xl font-semibold text-center py-9">
+        <h4 className="text-3xl md:text-5xl font-semibold text-center py-9">
           Contact us
-        </h1>
+        </h4>
         <div>
-          <h2 className="text-xl md:text-3xl font-semibold text-start py-3">
+          <h5 className="text-xl md:text-3xl font-semibold text-start py-3">
             Store Location
-          </h2>
+          </h5>
           <MapContainer />
         </div>
         <div className="py-6 ">
           <div className="flex gap-1 my-2">
             <Phone />
-            <h2 className="text-lg font-medium">
+            <p className="text-lg font-medium">
               +91 98470 39467, +91 9048567007
-            </h2>
+            </p>
           </div>
           <div className="flex gap-2">
-          <MapPin />
+            <MapPin />
             <p>
               Metro Pillar No : 625, P.C Chambers, Banerji Road, Ashir Bhavan
               Ln, Kacheripady, Kochi, Kerala 682018

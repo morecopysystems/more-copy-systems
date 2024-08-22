@@ -29,9 +29,9 @@ export function ProductImg({ type }: IProductImg) {
       className="w-full"
     >
       <CarouselContent className="mt-2">
-        {ProductList[type].map((_, index) => (
+        {ProductList[type].map((product, i) => (
           <CarouselItem
-            key={index}
+            key={`productList-${i}-products`}
             className=" sm:basis-1/1 md:basis-1/2 lg:basis-1/3  xl:basis-1/4 "
           >
             {/* <div className="p-1  "> */}
@@ -39,7 +39,7 @@ export function ProductImg({ type }: IProductImg) {
               <CardContent className="flex flex-col  items-center justify-between p-6  overflow-hidden ">
                 <div className="w-full h-full max-w-sm aspect-square max-h-[250px] ">
                   <Image
-                    src={_.imgUrl}
+                    src={product.imgUrl}
                     alt="printer"
                     width={720}
                     height={420}
@@ -47,9 +47,9 @@ export function ProductImg({ type }: IProductImg) {
                   />
                 </div>
                 <div>
-                  <h1 className="mt-2 cursor-pointer text-[15px] font-semibold">
-                    {_.title}
-                  </h1>
+                  <h3 className="mt-2 cursor-pointer text-[15px] font-semibold">
+                    {product.title}
+                  </h3>
 
                   <Accordion type="single" collapsible>
                     <AccordionItem value="item-1">
@@ -57,7 +57,7 @@ export function ProductImg({ type }: IProductImg) {
                         Specifications
                       </AccordionTrigger>
                       <AccordionContent>
-                        <p className="text-xs whitespace-pre-line">{_.desc}</p>
+                        <p className="text-xs whitespace-pre-line">{product.desc}</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>

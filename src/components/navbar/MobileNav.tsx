@@ -21,7 +21,7 @@ export default function MobileNavbar() {
         </DrawerTrigger>
         <DrawerContent>
           <DrawerHeader>
-            <DrawerTitle className="text-center m-2">  More Copy Systems</DrawerTitle>
+            <DrawerTitle className="text-center m-2">Swipe down to close.</DrawerTitle>
             <DrawerDescription className="py-5 " >
               <Link href="/" className="cursor-pointer hover:text-blue-500 ">
                 Home

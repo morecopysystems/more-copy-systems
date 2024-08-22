@@ -5,7 +5,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import Image from "next/image";
 import { Star } from "lucide-react";
 
-const Testimonials = () => {
+const GoogleReview = () => {
   // useEffect(() => {
   //   const script = document.createElement("script");
   //   script.src = "https://static.elfsight.com/platform/platform.js";
@@ -33,7 +33,7 @@ const Testimonials = () => {
           </a>
           <div className="flex flex-col justify-center items-center gap-2">
             <div className="flex ">
-              <h1 className="text-2xl mr-1 font-bold">5.0</h1>
+              <p className="text-2xl mr-1 font-bold">5.0</p>
               <Star className="text-[#fcba03] fill-[#fcba03]" />
               <Star className="text-[#fcba03] fill-[#fcba03]" />
               <Star className="text-[#fcba03] fill-[#fcba03]" />
@@ -53,4 +53,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default GoogleReview;

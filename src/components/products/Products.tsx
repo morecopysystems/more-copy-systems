@@ -6,9 +6,9 @@ export default function Products() {
   return (
     <section id="products" className="grainy-light mt-16 mb-8 ">
       <MaxWidthWrapper className="flex flex-col justify-center ">
-        <h1 className="text-3xl md:text-5xl font-semibold text-center my-16">
+        <h2 className="text-3xl md:text-5xl font-semibold text-center my-16">
           Products
-        </h1>
+        </h2>
         <Tabs
           defaultValue="photocopiers"
           className="w-full flex flex-col justify-center"

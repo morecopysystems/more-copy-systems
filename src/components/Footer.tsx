@@ -17,9 +17,9 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between md:items-center py-4">
         <div className="w-[300px] mb-4">
           <a href="/">
-            <h1 className="text-accent-foreground text-md md:text-lg font-semibold">
+            <h3 className="text-accent-foreground text-md md:text-lg font-semibold">
               MORE COPY SYSTEMS
-            </h1>
+            </h3>
           </a>
 
           <div className="flex gap-2 pt-3">

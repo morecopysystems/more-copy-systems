@@ -8,14 +8,14 @@ export default function About() {
     <>
       <section className=" my-16 py-10 grainy-dark " id="aboutus">
         <MaxWidthWrapper>
-          <h1 className="text-3xl md:text-5xl font-semibold text-center">
+          <h2 className="text-3xl md:text-5xl font-semibold text-center">
             About us
-          </h1>
+          </h2>
           <div className="flex justify-center gap-8 max-w-full flex-wrap">
             <div className="max-w-xl px-4 gap-3 flex flex-col">
-              <h2 className="text-lg md:text-xl font-semibold  mt-10 mb-2">
+              <h3 className="text-lg md:text-xl font-semibold  mt-10 mb-2">
                 MORE COPY SYSTEMS
-              </h2>
+              </h3>
               <p className="text-sm md:text-base pr-8 md:pr-16">
                At <span className="font-medium">More Copy Systems</span> , we are dedicated to meeting all your
                 office equipment and supply needs with a diverse range of

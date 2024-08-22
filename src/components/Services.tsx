@@ -7,9 +7,9 @@ export default function Services() {
   return (
     <section className="mx-auto w-full px-8 bg-white " id="services">
       <MaxWidthWrapper>
-        <h1 className="text-3xl md:text-5xl font-semibold text-center">
+        <h2 className="text-3xl md:text-5xl font-semibold text-center">
           Services we provide
-        </h1>
+        </h2>
         <HoverEffect items={Servicess} />
         
       </MaxWidthWrapper>
