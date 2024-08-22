@@ -7,10 +7,9 @@ import Footer from "@/components/Footer";
 const recursive = Recursive({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "More Copy Systems",
+  title: "More Copy Systems - Printing equipments provider",
   description:
-    "leading provider of sales and services of printing equipment and consumables",
-
+    "Discover top-quality photocopiers, printers, scanners, and more. Expert sales and service support for all your printing needs.",
 };
 
 export default function RootLayout({
