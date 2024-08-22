@@ -16,6 +16,7 @@ export default function About() {
               <h3 className="text-lg md:text-xl font-semibold  mt-10 mb-2">
                 MORE COPY SYSTEMS
               </h3>
+              <p className="font-medium text-sm md:text-base">More Copy Systems is a leading provider of sales and services for a wide range of printing equipment and consumables, based in Ernakulam, Kerala, India</p>
               <p className="text-sm md:text-base pr-8 md:pr-16">
                At <span className="font-medium">More Copy Systems</span> , we are dedicated to meeting all your
                 office equipment and supply needs with a diverse range of

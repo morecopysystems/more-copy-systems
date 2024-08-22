@@ -10,7 +10,7 @@ export default function Contact() {
           Contact us
         </h4>
         <div>
-          <h5 className="text-xl md:text-3xl font-semibold text-start py-3">
+          <h5 className="text-xl md:text-2xl font-semibold text-start py-3">
             Store Location
           </h5>
           <MapContainer />
