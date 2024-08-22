@@ -25,7 +25,7 @@ const GoogleReview = () => {
           <a href="https://g.co/kgs/YSuww1X" target="_blank">
             <Image
               src="/Google My Business Logo.png"
-              alt="google bussinee"
+              alt="google business logo"
               width={200}
               height={200}
               className="w-20 cursor-pointer"

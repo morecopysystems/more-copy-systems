@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className=" w-full px-9  sticky top-0 bg-white shadow-md  py-2  z-30">
       <div className="flex items-center justify-between lg:justify-around ">
         <a href="/">
-          <Image src={logo} alt="logo" width={2880} height={1440} className="w-[140px]" />
+          <Image src={logo} alt="more copy systems logo" width={2880} height={1440} className="w-[140px]" />
         </a>
         <div className=" gap-8 hidden md:flex">
           <a href="/" className="text-black/80  hover:text-blue-500 ">

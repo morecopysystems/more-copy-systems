@@ -52,8 +52,6 @@ export const Servicess = [
   },
 ];
 
-
-
 interface ProductType {
   imgUrl: string;
   title?: string;

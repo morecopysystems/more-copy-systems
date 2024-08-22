@@ -19,7 +19,7 @@ export default function Hero() {
             >
               <Image
                 src={slide}
-                alt={slide}
+                alt="Photocopier printer"
                 width={1920}
                 height={1080}
                 className="object-cover w-full h-full sm:h-[600px] md:h-[700px] rounded-2xl"

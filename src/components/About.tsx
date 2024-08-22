@@ -54,7 +54,7 @@ export default function About() {
             </div>
             <Image
               src={about_img}
-              alt="about"
+              alt="Office equipments"
               width={400}
               className="object-contain pl-8 md:w-[500px]"
             />

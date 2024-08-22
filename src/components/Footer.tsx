@@ -26,7 +26,7 @@ export default function Footer() {
             <Link href="https://www.facebook.com/profile.php?id=100094021993089">
               <Image
                 src="/facebook.png"
-                alt="facebook"
+                alt="facebook logo"
                 width={30}
                 height={30}
               />
@@ -34,7 +34,7 @@ export default function Footer() {
             <Link href="https://www.instagram.com/more_copy_systems/">
               <Image
                 src="/instagram.png"
-                alt="instagram"
+                alt="instagram logo"
                 width={30}
                 height={30}
               />
@@ -45,7 +45,7 @@ export default function Footer() {
             <Link href="https://www.linkedin.com/in/more-copy-systems-223818281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               <Image
                 src="/linkedin.png"
-                alt="linkedin"
+                alt="linkedin logo"
                 width={30}
                 height={30}
               />

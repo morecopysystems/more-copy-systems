@@ -9,7 +9,8 @@ const recursive = Recursive({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "More Copy Systems",
   description:
-    "leading provider of sales and services for a wide range of printing equipment and consumables",
+    "leading provider of sales and services of printing equipment and consumables",
+
 };
 
 export default function RootLayout({
