@@ -1,5 +1,5 @@
-import About from "@/components/About";
 import { Brands } from "@/components/Brands";
+import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Products from "@/components/products/Products";

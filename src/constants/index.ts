@@ -86,7 +86,7 @@ export const ProductList = {
     {
       title: "Canon imageRUNNER 2925 2925i",
       imgUrl: "/PR04 imageRUNNER 2925 2925i.png",
-      desc: "Description",
+      desc: "25 ppm,\nB&W Printing,\n2 GB RAM,\nMobile Printing,\nWiFi Ready,\n2 Main Cassette with capacity of 1100 sheets.",
       // link: "/",
     },
     {
@@ -98,37 +98,37 @@ export const ProductList = {
     {
       title: "Konica Minolta bizhub 306i/266i/226i",
       imgUrl: "/PR06 bizhub 306i 266i 226i.jpg",
-      desc: "Description",
+      desc: "A3 Colour Multifunctional Printers (MFP)\n\nSystem speed A4 -\nBizhub C266i - 26/26 ppm (mono/colour)\nBizhub C226i - 22/22 ppm (mono/colour)\nImaging technology - Laser\nSystem memory - 6 GB\nSystem storage (standard/optional) -\n8 GB microSD/256 GB SSD\nAutomatic document feeder -\nUp to 130 originals; A5-A3; 35-128 g/m²; RADF\nPaper tray input (standard) -\n1×500; A5-A3; custom sizes 60-256g/m²\nPaper tray input (optional) -\n1×500 sheets; A5-A3; custom sizes; 60-256 g/m²\n2×500 sheets; A5-A3; custom sizes; 60-256 g/m²\n1×2,500 sheets; A4; custom sizes; 60-256 g/m²\nManual bypass - 100 sheets; A6-A3; custom sizes, banner; 60-256 g/m²\nAutomatic duplexing - A5-A3; 60-256 g/m²\nOutput Capacity - Max. 250 sheets\nPrint resolution - 1,800(equivalent) × 600 dpi\nMobile printing - iOS/Android/Windows 10 Mobile; WiFi Direct\nScan modes - Scan-to-eMail, Scan-to-URL\nExclude blank documents from being scanned with blank original removal function\nScan destination - 2,000 + 100 (single + groups); LDAP support.",
       // link: "/",
     },
     {
       title: "Konica Minolta bizhub 367/287/227",
       imgUrl: "/PR07 bizhub  367 287 227.jpg",
-      desc: "Description",
+      desc: "A3 B&W Digital Multifunctional Printer.",
       // link: "/",
     },
     {
       title: "Konica Minolta bizhub 225i/205i",
       imgUrl: "/PR08 bizhub  225i 205i.jpg",
-      desc: "Description",
+      desc: "TECHNICAL SPECIFICATIONS\n\nSystem speed A4 - bizhub 225i: 22 ppm, bizhub 205i: 20 ppm\nImaging technology - Laser\nToner technology - Simitri® HD polymerised toner\nSystem memory - 256 MB (standard/max)\nAutomatic document feeder (optional) - Up to 130 originals\nPrintable paper size - A5-A3\nPrintable paper weight - 64-157 g/m²\nPaper input capacity - 350 sheets / 1,350 sheets (standard/max)\nPaper tray input (standard) - 1x 250; A5-A3\nPaper tray input (optional) - 1x 250 sheets; B5-A3\nManual bypass - 100 sheets; A5-A3\nAutomatic duplexing (optional) - A5-A3\nOutput capacity - Up to 250 sheets\nPrinter resolution - 600 x 600 dpi\nScan speed - Up to 55/20 ipm in simplex (mono/colour)\nScan resolution - Up to 600 x 600 dpi\nScan modes - Scan-to-eMail; Scan-to-SMB; Scan-to-FTP; Scan-to-USB; TWAIN scan\nFile formats - JPEG; TIFF; PDF\nScan destinations - 32 destinations\nCopy resolution - 600×600 dpi\nOriginal format - Max. A3\nFax - optional\nSystem features - Accounting - Up to 50 user accounts.",
       // link: "/",
     },
     {
       title: "Kyocera TASKalfa MZ3200i",
       imgUrl: "/PR09 TASKalfa MZ3200i.jpg",
-      desc: "Description",
+      desc: "A Revolutionary Versatile Printer\n\nTECHNICAL SPECIFICATIONS\n⁃ A3/A4/Legal\n⁃ 32 pages per minute\n⁃ Copy, Print, Scan & Fax*\n⁃ Duplex Printing/Scanning\n⁃ Scan To PDF/Scan To Mail\n⁃ 1200x1200dpi Printing ERKBOCER\n⁃ Color Touch Screen 10.1 inch\n⁃ Drum Unit Life 6,00,000 copies\n⁃ Advanced Networking\n⁃ Yield Upto 20,000 pages\n⁃ Monthly Duty Cycle up to 3,00,000 copies",
       // link: "/",
     },
     {
       title: "Kyocera TASKalfa 2020/2320/2321",
       imgUrl: "/PR10 TASKalfa 2020 2320 2321.jpg",
-      desc: "Description",
+      desc: "KYOCERA\nDocument Solutions\n* TASKalfa 2020/2320/2321\n\nTECHNICAL SPECIFICATIONS\n\nCOPY/PRINT/SCAN/FAX\n\nMonochrome Multifunction Product For A4/A3 FORMAT,\n\nResolution is 600 × 600 dpi,\n\nScan Functions :- 300dpi Mono/Color\n\nMemory - 256 MB\n\nToner Kit = TK - 4140\n\nMaintenance Kit = MK - 4145\n\nDuplex Unit = DU - 480 (TASKalfa 2020 & 2320).\n\nCompatible Toner Kit ^available at the store _ .",
       // link: "/",
     },
     {
       title: "Kyocera ECOSYS M2040dn",
       imgUrl: "/PR11 ECOSYS M2040dn.jpg",
-      desc: "Description",
+      desc: "KYOCERA\nDocument Solutions\n* ECOSYS M2040dn (3 in 1)\nTECHNICAL SPECIFICATIONS\n\nPRINT/COPY/SCAN\n\nMONOCHROME MULTIFUNCTION PRODUCT FOR A4 FORMAT,\n\nFast Scanning 40/23 ipm Mono/Color,\n\nHigh Printing Quality With Fine 1,200 Print Resolution,\n\nToner Kit = TK 1177 * (7,200 pages),\n\nMaintenance Kit = MK 1158 * (100,000 pages),\n\nPaper Feeder = PF 1100 : 250 sheets (Max. ×2).\n\nCompatible Toner Kit ^ available at the store _ .",
       // link: "/",
     },
   ],
@@ -219,6 +219,12 @@ export const ProductList = {
       // link: "/",
     },
     {
+      title: "Epson LX-1310",
+      imgUrl: "/EPSON L1310.jpg",
+      desc: 'Epson LX-1310 Single Function Monochrome Dot Matrix Printer (Ink Cartridge)\n\nHeavy Duty Printing for 24/7 Business Solutions.\n\nThis 9-pin wide carriage printer prints at a lightning fast speed of 416 CPS (12 CPI) and has a choice of 8 built-in barcode formats for maximum versatility.\n\nNarrow carriage 9-pin SIDM High 347 CPS print speed at 12 CPI\n10,000 power on hour MTBF\nUSB, Serial and Parallel ports',
+      // link: "/",
+    },
+    {
       title: "Epson EcoTank M200/M205",
       imgUrl: "/Epson EcoTank M200.jpg",
       desc: "⦁ Print resolution of 1440 dpi\n⦁ High print speed of 34 ppm\n⦁ USB 2.0 connectivity\n⦁ 30-page Automatic Document Feeder\n⦁ M200: USB + Network only\n⦁ M205: USB + Wi-Fi only",
@@ -242,6 +248,7 @@ export const ProductList = {
       desc: '⦁	Print resolution of 5760 dpi\n⦁	Print speed - 36 secs per 10cm x 15cm (4" x 6") borderless photo\n⦁	6.9 cm (2.7") LCD screen\n⦁	Custom template for passport and Visa photos \n⦁	Economical 8-up (2/4/6/8) Passport size and 16-up Stamp-size photos\n⦁	PictBridge, USB direct, built-in memory card slot\n⦁	Wireless printing with Epson iPrint and Apple AirPrint',
       // link: "/",
     },
+ 
     {
       title: "Brother DCP-B7500D",
       imgUrl: "/brother.jpg",
@@ -332,6 +339,18 @@ export const ProductList = {
       desc: "Professional Lamination/Laminating Metal Machine | Hot & Cold | A3 Laminator 12.6 inch",
       // link: "/",
     },
+    {
+      imgUrl: "/Laminator .jpg",
+      title: "Laminating Metal Machine",
+      desc: "A3 size Laminator\nHi-quality Thermal Laminator\nSilicon Rollers\nPower failure releasing knob\nUser Friendly\nCompact Design\nPower: AC 220-240V/50Hz\nPower Consumption: 620 W\nTemperature Range: 80-180°C\nMax. Laminating width: 330mm",
+      // link: "/",
+    },
+    {
+      imgUrl: "/Lamination Machine .jpg",
+      title: "Laminating Metal Machine",
+      desc: "",
+      // link: "/",
+    },
   ],
   Binders: [
     {
@@ -369,6 +388,66 @@ export const ProductList = {
     {
       imgUrl: "/INKS AND CARTRIDGES.jpg",
       title: "",
+      desc: "",
+      // link: "/",
+    },
+    {
+      imgUrl: "/EPSON EcoTank GENUINE INK.png",
+      title: "EPSON EcoTank GENUINE INK",
+      desc: "Suitable for :-\n001 :- L4100/ L4200/ L6100/ L6200/ L14100 .\n\n005 :- M1110/ M1120/ M1140/ M1170/ M1180/ M2110/ M2120/ M2140/ M2170/ M3140/ M3170/ M3180 .\n\n008 :- L6460/ L6490/ L6570/ L6580/ L15150/ L15160/ L15180/ L15140/ M15180 .\n\n774 :- M100/ M105/ M200/ M205/ L605/ L655/ L1455\n\n005 :- M1110/ M1120/ M1140/ M1170/ M1180/ M2110/ M2120/ M2140/ M2170/ M3140/ M3170/ M3180 .\n\n008 :- L6460/ L6490/ L6570/ L6580/ L15150/ L15160/ L15180/ L15140/ M15180 .\n\n774 :- M100/ M105/ M200/ M205/ L605/ L655/ L1455",
+      // link: "/",
+    },
+    {
+      imgUrl: "/664 GENUINE EPSON INK.png",
+      title: "664 GENUINE EPSON INK",
+      desc: "Suitable For Series :-\nL100/ L110/ L130/ L200/ L300/ L310/ L350/ L355/ LL360/ L361/ L365/ L380/ L385/ L405/ L455/ L485/ L550/ L555/ L565/ LL1300",
+      // link: "/",
+    },
+    {
+      imgUrl: "/003 GENUINE EPSON ecotank INK.png",
+      title: "003 GENUINE EPSON ecotank INK",
+      desc: "Suitable For Series :-\nL1100, L1200, L3100, L3200, L5100, L5200",
+      // link: "/",
+    },
+    {
+      imgUrl: "/71 Canon PIXMA GENUINE INK.png",
+      title: "71 Canon PIXMA GENUINE INK",
+      desc: "Suitable For :-\nG1020/ G1730/ G1737/ G2020/ G2021/ G2060/ G2730/ G2770/ G3020/ G3021/ G3060/ G3730/ G3770/ G4770",
+      // link: "/",
+    },
+    {
+      imgUrl: "/790 Canon PIXMA GENUINE INK.png",
+      title: "790 Canon PIXMA GENUINE INK",
+      desc: "Suitable For :-\nG1000/ G1010/ G2000/ G2002/ G2010/ G2012/ G3000/ G3010/ G3012/ G4000/ G4010",
+      // link: "/",
+    },
+    {
+      imgUrl: "/KYOCERA DOCUMENT SOLUTIONS TONER KIT .png",
+      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
+      desc: "Description",
+      // link: "/",
+    },
+    {
+      imgUrl: "/12A.jpg",
+      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
+      desc: "Description",
+      // link: "/",
+    },
+    {
+      imgUrl: "/88A.jpg",
+      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
+      desc: "Description",
+      // link: "/",
+    },
+    {
+      imgUrl: "/925.jpg",
+      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
+      desc: "Description",
+      // link: "/",
+    },
+    {
+      imgUrl: "/337.jpg",
+      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
       desc: "Description",
       // link: "/",
     },
@@ -382,10 +461,29 @@ export const ProductList = {
     },
   ],
   PaperCutters: [
+ 
     {
-      imgUrl: "/ink8.png",
-      title: "Paper Cutters",
+      imgUrl: "/Heavy duty Paper Cutter (Rim Cutter).jpg",
+      title: "HEAVY DUTY PAPER CUTTER",
+      desc: "HEAVY DUTY PAPER CUTTER\n\nAvailable!\n\nModel - KS 858\nSize - A3+ / 17inch\nMaterial - Mild Steel\nAutomation grade (cutting mode) - Manual\nBase Material - Metal\nCutting Height - 40mm\nMax Cutting Thickness - 40mm\n\nRobust and sturdy SS blade,\nWith an adjustable paper clamp,\nBlade is also easily replaceable,\nWith computer generated grid in inches,\nCut Through 400 to 500 sheets of 80GSM paper,\n\nMachine Size - 26×24×7.5\nWeight - 19kg",
+      // link: "/",
+    },
+    {
+      imgUrl: "/rim-cutter-ks-858-a-3.png",
+      title: "Rim Cutter",
       desc: "",
+      // link: "/",
+    },
+    {
+      imgUrl: "/Paper Cutter .jpg",
+      title: "Paper Cutter",
+      desc: "",
+      // link: "/",
+    },
+    {
+      imgUrl: "/Paper Cutter  A4.jpg",
+      title: "A4 Paper Cutter",
+      desc: "A4 Paper Cutter\n\nA4 Size, Fs legal Size, A3 Size\n\nBest For Xerox shop, CSC Center, Gift Shop, Office Supplies",
       // link: "/",
     },
   ],
