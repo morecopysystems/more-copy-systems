@@ -69,18 +69,19 @@ export const ProductList = {
     {
       title: "Canon imageRUNNER 2425",
       imgUrl: "/PR01 imageRUNNER 2425.jpg",
-      desc: "Description",
+      desc: "25 ppm, 2GB RAM, Duplex Std, WiFi Std, Mobile printing, Scan to mail & Folder, Pen Drive Printing and Scanning,\n\nimageRUNNER 2425",
       // link: "/",
     },
     {
       title: "Canon imageRUNNER 1643i II  1643iF II",
       imgUrl: "/PR02 imageRUNNER 1643i II  1643iF II.jpg",
-      desc: "Description",
+      desc: "43 ppm, A4/LGL, 1 GB RAM, Duplex Printing, Scan to Mail & Folder\n\nimageRUNNER 1643i/ 1643iF ( Fax)",
       // link: "/",
     },
     {
       title: "Canon imageRUNNER C3326i",
       imgUrl: "/PR03 imageRUNNER C3326i.jpeg",
+      desc: "26 ppm B&W and Color, 2 GB RAM, Mobile Printing, WiFi ready, Scan to mail Scan to folder, Timeline features\n\niRC 3226",
       // link: "/",
     },
     {
@@ -92,7 +93,7 @@ export const ProductList = {
     {
       title: "Canon imageRUNNER 2224N",
       imgUrl: "/PR05 imageRUNNER 2925 2925i.jpg",
-      desc: "Description",
+      desc: "A3 MFD B&W 24 ppm, 1 GB RAM, Secure Prining, Mobile printing, Wifi ready, Scan to mail Scan to folder",
       // link: "/",
     },
     {
@@ -221,7 +222,7 @@ export const ProductList = {
     {
       title: "Epson LX-1310",
       imgUrl: "/EPSON L1310.jpg",
-      desc: 'Epson LX-1310 Single Function Monochrome Dot Matrix Printer (Ink Cartridge)\n\nHeavy Duty Printing for 24/7 Business Solutions.\n\nThis 9-pin wide carriage printer prints at a lightning fast speed of 416 CPS (12 CPI) and has a choice of 8 built-in barcode formats for maximum versatility.\n\nNarrow carriage 9-pin SIDM High 347 CPS print speed at 12 CPI\n10,000 power on hour MTBF\nUSB, Serial and Parallel ports',
+      desc: "Epson LX-1310 Single Function Monochrome Dot Matrix Printer (Ink Cartridge)\n\nHeavy Duty Printing for 24/7 Business Solutions.\n\nThis 9-pin wide carriage printer prints at a lightning fast speed of 416 CPS (12 CPI) and has a choice of 8 built-in barcode formats for maximum versatility.\n\nNarrow carriage 9-pin SIDM High 347 CPS print speed at 12 CPI\n10,000 power on hour MTBF\nUSB, Serial and Parallel ports",
       // link: "/",
     },
     {
@@ -248,7 +249,7 @@ export const ProductList = {
       desc: '⦁	Print resolution of 5760 dpi\n⦁	Print speed - 36 secs per 10cm x 15cm (4" x 6") borderless photo\n⦁	6.9 cm (2.7") LCD screen\n⦁	Custom template for passport and Visa photos \n⦁	Economical 8-up (2/4/6/8) Passport size and 16-up Stamp-size photos\n⦁	PictBridge, USB direct, built-in memory card slot\n⦁	Wireless printing with Epson iPrint and Apple AirPrint',
       // link: "/",
     },
- 
+
     {
       title: "Brother DCP-B7500D",
       imgUrl: "/brother.jpg",
@@ -461,7 +462,6 @@ export const ProductList = {
     },
   ],
   PaperCutters: [
- 
     {
       imgUrl: "/Heavy duty Paper Cutter (Rim Cutter).jpg",
       title: "HEAVY DUTY PAPER CUTTER",
