@@ -37,13 +37,13 @@ export function ProductImg({ type }: IProductImg) {
             {/* <div className="p-1  "> */}
             <Card className="">
               <CardContent className="flex flex-col  items-center justify-between p-6  overflow-hidden ">
-                <div className="w-full h-full max-w-sm aspect-square max-h-[250px] ">
+                <div className="w-full h-full max-w-sm aspect-square ">
                   <Image
                     src={product.imgUrl}
                     alt={product.title}
                     width={720}
                     height={420}
-                    className="  w-full max-h-3/4 h-full"
+                    className="w-full max-h-3/4 h-full"
                   />
                 </div>
                 <div>
