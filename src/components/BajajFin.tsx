@@ -29,11 +29,11 @@ export default function BajajFin() {
         <motion.div className="text-center mb-16" variants={containerVariants}>
           <h2 className="text-3xl md:text-5xl font-semibold text-center text-gray-900 mb-6 leading-tight">
             Easy EMI Financing with Bajaj Finserv
-            <span className="block text-blue-600 text-2xl md:text-4xl mt-2 ">
+            <span className="block text-blue-600 text-lg md:text-xl font-semibold mt-2 ">
               0% Interest, No Down Payment
             </span>
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className=" text-gray-600 max-w-3xl mx-auto leading-relaxed text-sm md:text-base">
             At More Copy Systems, enjoy Bajaj Finserv EMI options with 0%
             interest and no down payment on our entire range of office equipment
             and supplies. Get high-quality printers, photocopiers, and more
@@ -75,9 +75,9 @@ export default function BajajFin() {
           className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm text-gray-500 bg-gray-50 p-4 rounded-lg"
           variants={containerVariants}
         >
-          <p className="font-medium">*Terms & Conditions apply</p>
+          <p className="font-medium text-sm md:text-base">*Terms & Conditions apply</p>
           <span className="hidden md:inline">•</span>
-          <p>Processing fee will be extra</p>
+          <p className="text-sm md:text-base">Processing fee will be extra</p>
         </motion.div>
       </motion.div>
     </section>
