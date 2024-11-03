@@ -138,37 +138,55 @@ export const ProductList = {
     {
       title: "Canon PIXMA G2730",
       imgUrl: "/canonPIXMAG2730.jpg",
-      desc: '⦁ ISO Standard print speed (A4): 11.0/6.0 (mono/color) images per minute*3\n⦁ Photo print speed on 10.16x15.24 cm (4"x6") - 45 seconds*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 100 sheets paper input\n⦁ CIS flatbed scanner, up to 600x1200 dpi, up to 99 copies\n⦁ Borderless printing supported, up to A4 (21.0x29.7 cm)',
+      desc: '⦁ MULTI-FUNCTIONAL INKJET PRINTER | PRINT | SCAN | COPY\n⦁ ISO Standard print speed (A4): 11.0/6.0 (mono/color) images per minute*3\n⦁ Photo print speed on 10.16x15.24 cm (4"x6") - 45 seconds*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 100 sheets paper input\n⦁ CIS flatbed scanner, up to 600x1200 dpi, up to 99 copies\n⦁ Borderless printing supported, up to A4 (21.0x29.7 cm)\n⦁ Best suited for Document Printing, Copy and Photo Printing ',
       // link: "/",
     },
     {
       title: "Canon PIXMA G3730",
       imgUrl: "/canonPIXMAG3730.jpg",
-      desc: '⦁ ISO Standard print speed (A4): 11.0/6.0 (mono/color) images per minute*3\n⦁ Photo print speed on 10.16x15.24 cm (4"x6") - 45 seconds*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 100 sheets paper input\n⦁ CIS flatbed scanner, up to 600x1200 dpi, up to 99 copies\n⦁ Borderless printing supported, up to A4 (21.0x29.7 cm)',
+      desc: '⦁ MULTI-FUNCTIONAL INKJET PRINTER | PRINT | SCAN | COPY | Wi-Fi \n ⦁ ISO Standard print speed (A4): 11.0/6.0 (mono/color) images per minute*3\n⦁ Photo print speed on 10.16x15.24 cm (4"x6") - 45 seconds*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 100 sheets paper input\n⦁ CIS flatbed scanner, up to 600x1200 dpi, up to 99 copies\n⦁ Borderless printing supported, up to A4 (21.0x29.7 cm)\n⦁ Best suited for Document Printing, Copy and Photo Printing \n',
       // link: "/",
     },
     {
       title: "Canon PIXMA G3770",
       imgUrl: "/canonPIXMA G3770.jpg",
-      desc: '⦁ ISO Standard print speed (A4): 11.0/6.0 (mono/color) images per minute*3\n⦁ Photo print speed on 10.16x15.24 cm (4"x6") - 45 seconds*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 100 sheets paper input\n⦁ CIS flatbed scanner, up to 600x1200 dpi, up to 99 copies\n⦁ Borderless printing supported, up to A4 (21.0x29.7 cm)',
+      desc: '⦁ ISO Standard print speed (A4): 11.0/6.0 (mono/color) images per minute*3\n⦁ Photo print speed on 10.16x15.24 cm (4"x6") - 45 seconds*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 100 sheets paper input\n⦁ CIS flatbed scanner, up to 600x1200 dpi, up to 99 copies\n⦁ Borderless printing supported, up to A4 (21.0x29.7 cm)\n⦁ Best suited for Document Printing, Copy and Photo Printing \n',
       // link: "/",
     },
     {
-      title: "Canon PIXMA G670",
+      title: "Canon PIXMA G6070",
       imgUrl: "/canonPIXMA G670.jpg",
-      desc: '⦁ Photo print speed on 10.16x15.24 cm (4"x6") - 47 seconds*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 100 sheets paper input\n⦁ CIS flatbed scanner, up to 600x1200 dpi, up to 99 copies\n⦁ Borderless printing supported, up to A4 (21.0x29.7 cm)\n⦁ Connectivity: Wi-Fi, WiFi Direct, AirPrint*4, Mopria, PIXMA Cloud Link, Canon Print Inkjet/Selphy App*5',
+      desc: '⦁ MULTI-FUNCTIONAL INKJET PRINTER | PRINT | SCAN | COPY\n⦁ ISO Standard print speed (A4): 13.0/6.8 (mono/color) images per minute*3  \n⦁ Photo print speed on 10.16x15.24 cm (4"x6") - 47 seconds*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 100 sheets paper input\n⦁ CIS flatbed scanner, up to 600x1200 dpi, up to 99 copies\n⦁ Borderless printing supported, up to A4 (21.0x29.7 cm)\n⦁ Connectivity: Wi-Fi, WiFi Direct, AirPrint*4, Mopria, PIXMA Cloud Link, Canon Print Inkjet/Selphy App*5\n⦁ Best suited for Document Printing, Copy and Photo Printing \n',
+      // link: "/",
+    },
+    {
+      title: "Canon PIXMA GM2070",
+      imgUrl: "/canonPIXMA G670.jpg", //replace photo
+      desc: "⦁ MONOCHROME PRINTER \n⦁ SINGLE FUNCTIONAL INKJET PRINTER | PRINT | Wi-Fi \n⦁ ISO Standard print speed (A4): 13.0 (mono) images per minute*3  \n⦁ Colour Catridge is optional \n⦁ Print resolution of up to 600x1200 dpi\n⦁ 250+100 sheets paper input\n⦁ Ethernet, Wi-Fi, Wi-Fi Direct PIXMA Cloud Link, Canon Print Inkjet/Selphy App\n ⦁ Best suited for Document Printing",
       // link: "/",
     },
     {
       title: "Canon MAXIFY GX3070",
       imgUrl: "/canonMAXIFY GX3070.jpg",
-      desc: "⦁ ISO Standard print speed (A4): 18.0/13.0 (mono/color) images per minute*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 3-way paper feed (250+100+1 sheets)\n⦁ Auto two-sided printing\n⦁ CIS flatbed scanner, up to 1200x2400 dpi, up to 99 copies\n⦁ Connectivity: USB, Wi-Fi with Wi-Fi Direct",
+      desc: "⦁ MAXIFY INK TANK PRINTERS FOR HIGH VOLUME DOCUMENT PRINTING \n ⦁ MULITI-FUNCTIONAL INKJET PRINTER | PRINT | SCAN | COPY | Wi-Fi \n ⦁ High-Perfomance Wireless Ink Tank Printer for Business Printing with 3.4cm LCD Screen\n ⦁ ISO Standard print speed (A4): 18.0/13.0 (mono/color) images per minute*3\n⦁ Print resolution of up to 4800x1200 dpi\n⦁ 3-way paper feed (250+100+1 sheets)\n⦁ Auto two-sided printing\n⦁ CIS flatbed scanner, up to 1200x2400 dpi, up to 99 copies\n⦁ Connectivity: USB, Wi-Fi with Wi-Fi Direct \n ⦁ Best suited for High Volume Document Printing",
       // link: "/",
     },
     {
-      title: "Canon imageClass LBP122",
+      title: "Canon MAXIFY GX6070",
+      imgUrl: "/canonMAXIFY GX3070.jpg", //replace photo
+      desc: "⦁ MAXIFY INK TANK PRINTERS FOR HIGH VOLUME DOCUMENT PRINTING \n ⦁ MULITI-FUNCTIONAL INKJET PRINTER | PRINT | SCAN | COPY | Wi-Fi \n ⦁ Easy Refillable Ink Tank, Wireless Printer for business printing with duplex printing and 6.7cm Touch Screen\n ⦁ ISO Standard print speed (A4): 24.0/15.5 (mono/color) images per minute*3\n⦁ Print resolution of up to 600x1200 dpi\n⦁ 250+100 sheets paper input, 50 sheets ADF \n⦁ Duty Cycle of 45,000 print**1\n⦁ Ethernet, Wi-Fi, Wi-Fi Direct, AirPrint*4, MAXIFY Cloud Link, Canon Print Inkjet/Selphy App*5 \n ⦁ CIS Flatbed scanner, up to 1200x1200 dpi, up to 99 copies \n ⦁ Best suited for High Volume Document Printing",
+      // link: "/",
+    },
+    {
+      title: "Canon imageClass LBP6030b",
       imgUrl: "/canonimageCLASS LBP122.jpg",
-      desc: "⦁ 29 prints per minute*3 (A4), 20,000 prints duty cycle**1\n⦁ Print resolution of 600x600 dpi\n⦁ 150 sheets paper input, 100 sheets paper output\n⦁ Connectivity: Ethernet, Wi-Fi, Wi-Fi Direct",
+      desc: "⦁ 18 prints per minute*3 (A4), UFR Based 5,000 prints duty cycle**1\n⦁ Print resolution of 600x600 dpi, up to 2400x600 dpi \n⦁ 150 sheets paper input, 100 sheets paper output\n⦁ Windows, Mac, Linux support\n⦁ Best suited for Document Printing for Home & Small Office Home Office",
+      // link: "/",
+    },
+    {
+      title: "Canon imageClass LBP122dw",
+      imgUrl: "/canonimageCLASS LBP122.jpg",
+      desc: "⦁ SINGLE FUNCTIONAL LASER PRINTER | PRINT | Wi-Fi \n⦁ Printer with duplex Printing, 4.57cm LCD screen and 256mb RAM \n⦁ 29 prints per minute*3 (A4), 20,000 prints duty cycle**1\n⦁ Print resolution of 600x600 dpi\n⦁ 150 sheets paper input, 100 sheets paper output\n⦁ Connectivity: Ethernet, Wi-Fi, Wi-Fi Direct \n⦁ Best suited for Document Printing for Small Office Home Office & SMB",
       // link: "/",
     },
     {
@@ -180,13 +198,13 @@ export const ProductList = {
     {
       title: "Canon imageClass MF244dw",
       imgUrl: "/canonimageCLASSMF244dw.jpg",
-      desc: "⦁ 27 prints per minute*3 (A4), UFR, PCL6 supported, 50,000 prints duty cycle**1\n⦁ Print resolution of 600x600 dpi, up to 1200x1200 dpi\n⦁ 250+1 sheets paper input, 100 sheets paper output, 35 sheets ADF\n⦁ CIS scanner, 600 dpi, PULL and PUSH scan\n⦁ Windows, Mac, Linux support\n⦁ Connectivity: Ethernet, Wi-Fi, Wi-Fi Direct",
+      desc: "⦁ MONOCHROME PRINTER \n⦁ Printer with duplex Printing, LCD screen and 512mb RAM\n⦁ 27 prints per minute*3 (A4), UFR, PCL6 supported, 50,000 prints duty cycle**1\n⦁ Print resolution of 600x600 dpi, up to 1200x1200 dpi\n⦁ 250+1 sheets paper input, 100 sheets paper output, 35 sheets ADF\n⦁ CIS scanner, 600 dpi, PULL and PUSH scan\n⦁ Windows, Mac, Linux support\n⦁ Connectivity: Ethernet, Wi-Fi, Wi-Fi Direct \n⦁ Best suited for Document Printing for Small Office Home Office & SMB",
       // link: "/",
     },
     {
       title: "Canon imageClass MF274dn",
       imgUrl: "/canonimageClassMF274dn.jpg",
-      desc: "⦁ 29 prints per minute*3 (A4), 20,000 prints duty cycle**1\n⦁ Print resolution of 600x600 dpi\n⦁ 150 sheets paper input, 100 sheets paper output\n⦁ CIS scanner, 600 dpi, PULL and PUSH scan\n⦁ Windows, Mac, Linux support\n⦁ Connectivity: Ethernet\n⦁ 33.6 kbps Fax",
+      desc: "⦁ MULTI-FUNCTIONAL LASER PRINTER [4-in-1] PRINT | SCAN | COPY | FAX \n ⦁ Printer with Duplex Printing, Touch screen and 256mb RAM \n⦁ 29 prints per minute*3 (A4), 20,000 prints duty cycle**1\n⦁ Print resolution of 600x600 dpi\n⦁ 150 sheets paper input, 100 sheets paper output\n⦁ CIS scanner, 600 dpi, PULL and PUSH scan\n⦁ Windows, Mac, Linux support\n⦁ Connectivity: Ethernet\n⦁ 33.6 kbps Fax \n ⦁ Best suited for Document Printing for SMB",
       // link: "/",
     },
     {

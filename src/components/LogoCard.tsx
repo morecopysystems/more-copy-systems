@@ -18,13 +18,13 @@ export default function LogoCard({ icon: Icon, label, badgeColor, children }: Lo
       whileHover={{ scale: 1.02 }}
       transition={{ type: "spring", stiffness: 300, damping: 20 }}
     >
-      <div className="bg-white p-6 md:p-8 lg:p-10 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+      <div className="bg-white p-2 md:p-4 lg:p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
         {children}
         <Badge 
           className={`absolute -top-3 left-4 ${badgeColor} shadow-md transform group-hover:-translate-y-1 transition-transform duration-300`} 
           variant="secondary"
         >
-          <Icon className="w-4 h-4 mr-1.5" />
+          <Icon className="w-4 h-4 mr-1.5 " />
           {label}
         </Badge>
       </div>

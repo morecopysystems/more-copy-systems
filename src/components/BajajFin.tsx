@@ -1,9 +1,9 @@
 "use client";
 
-import { BadgePercent, CreditCard } from "lucide-react";
 import { motion } from "framer-motion";
+import { BadgePercent, CreditCard } from "lucide-react";
+import Image from "next/image";
 import LogoCard from "./LogoCard";
-import BajajLogo from "./BajajLogo";
 
 export default function BajajFin() {
   const containerVariants = {
@@ -19,7 +19,7 @@ export default function BajajFin() {
   };
 
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-white py-20 px-4 md:px-8 lg:px-12">
+    <section className="bg-gradient-to-b from-gray-50 to-white py-20 px-4 md:px-8 lg:px-12 ">
       <motion.div
         className="max-w-6xl mx-auto"
         initial="hidden"
@@ -27,9 +27,9 @@ export default function BajajFin() {
         variants={containerVariants}
       >
         <motion.div className="text-center mb-16" variants={containerVariants}>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+          <h2 className="text-3xl md:text-5xl font-semibold text-center text-gray-900 mb-6 leading-tight">
             Easy EMI Financing with Bajaj Finserv
-            <span className="block text-blue-600 mt-2">
+            <span className="block text-blue-600 text-2xl md:text-4xl mt-2 ">
               0% Interest, No Down Payment
             </span>
           </h2>
@@ -41,13 +41,19 @@ export default function BajajFin() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center justify-items-center mb-12">
+        <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 mb-12">
           <LogoCard
             icon={BadgePercent}
             label="0% Interest"
             badgeColor="bg-blue-600 text-white"
           >
-            <BajajLogo />
+            <Image
+              src="/bajaj.png"
+              alt="Bajaj Finserv financial services logo - loans, investments, and insurance solutions"
+              width={1920}
+              height={1080}
+              className="w-[300px] h-[150px] rounded-sm"
+            />
           </LogoCard>
 
           <LogoCard
@@ -55,7 +61,13 @@ export default function BajajFin() {
             label="No Down Payment"
             badgeColor="bg-green-600 text-white"
           >
-            <BajajLogo />
+            <Image
+              src="/bajaj1.jpeg"
+              alt="Bajaj Finserv financial services logo - loans, investments, and insurance solutions"
+              width={1920}
+              height={1080}
+              className="w-[300px] h-[150px] rounded-sm"
+            />
           </LogoCard>
         </div>
 
