@@ -4,9 +4,9 @@ import { ProductImg } from "./ProductImg";
 
 export default function Products() {
   return (
-    <section id="products" className="grainy-light mt-16 mb-8 ">
+    <section id="products" className="grainy-light mt-8 mb-8 ">
       <MaxWidthWrapper className="flex flex-col justify-center ">
-        <h2 className="text-3xl md:text-5xl font-semibold text-center my-16">
+        <h2 className="text-3xl md:text-5xl font-semibold text-center ">
           Products
         </h2>
         <Tabs
