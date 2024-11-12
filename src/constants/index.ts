@@ -117,7 +117,7 @@ export const ProductList = {
     {
       title: "Kyocera TASKalfa MZ3200i",
       imgUrl: "/PR09 TASKalfa MZ3200i.jpg",
-      desc: "A Revolutionary Versatile Printer\n\nTECHNICAL SPECIFICATIONS\n⁃ A3/A4/Legal\n⁃ 32 pages per minute\n⁃ Copy, Print, Scan & Fax*\n⁃ Duplex Printing/Scanning\n⁃ Scan To PDF/Scan To Mail\n⁃ 1200x1200dpi Printing ERKBOCER\n⁃ Color Touch Screen 10.1 inch\n⁃ Drum Unit Life 6,00,000 copies\n⁃ Advanced Networking\n⁃ Yield Upto 20,000 pages\n⁃ Monthly Duty Cycle up to 3,00,000 copies",
+      desc: "A Revolutionary Versatile Printer\n\nTECHNICAL SPECIFICATIONS\n⁃ A3/A4/Legal\n⁃ 32 pages per minute\n⁃ Copy, Print, Scan & Fax*\n⁃ Duplex Printing/Scanning\n⁃ Scan To PDF/Scan To Mail\n⁃ 1200x1200dpi Printing ERKBOCER\n⁃ Color Touch Screen 10.1 inch\n⁃ Drum Unit Life 6,00,000 copies\n⁃ Advanced Networking\n⁃  Upto 20,000 pages\n⁃ Monthly Duty Cycle up to 3,00,000 copies",
       // link: "/",
     },
     {
