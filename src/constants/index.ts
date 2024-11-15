@@ -64,7 +64,7 @@ export const ProductList = {
       title: "Xerox AltaLink C8130",
       imgUrl: "/Xerox Altalink C8130.jpg",
       desc: "Description",
-      // link: "/",
+      
     },
     {
       title: "Canon imageRUNNER 2425",
