@@ -64,7 +64,6 @@ export const ProductList = {
       title: "Xerox AltaLink C8130",
       imgUrl: "/Xerox Altalink C8130.jpg",
       desc: "Description",
-      
     },
     {
       title: "Canon imageRUNNER 2425",
@@ -448,26 +447,26 @@ export const ProductList = {
     },
     {
       imgUrl: "/12A.jpg",
-      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
-      desc: "Description",
+      title: "Laser Printer Toner Cartridge - ETC 12A",
+      desc: "For Use in : HP, Canon - \nH LJ 1010/1012/1015/1018/1020\n/1022/1022N/1022NW/3015/3020\n/3030/3050/3050AI0/3052\n/3055/M1005/M1005/MFP/MI319F\n MFP /CLSLBP2900/2900B/3000",
       // link: "/",
     },
     {
       imgUrl: "/88A.jpg",
-      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
-      desc: "Description",
+      title: "Laser Printer Toner Cartridge - ETC 88A",
+      desc: "•For Use in :HP, Canon - \nH LJ P1007/P1008/1106/1108\n/M1136/1213NF//1216NFH/MFP\n MI26nW/M128fw/2020n/202dw",
       // link: "/",
     },
     {
       imgUrl: "/925.jpg",
-      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
-      desc: "Description",
+      title: "Laser Printer Toner Cartridge \n- ETC 925",
+      desc: "For Use in : HP, Canon\n- HLJ Pro P1100/P1102/P1102w/P1110\n/M1130/M1132/M1210/M1212nf/1214/ \nM1217nfw/M1219/CLS LBP6000/6018/C \ni-S LBP6020/6030/6040CiC\n LBP6030w/Mf3010/ CiC MF3010",
       // link: "/",
     },
     {
       imgUrl: "/337.jpg",
-      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
-      desc: "Description",
+      title: "Laser Printer Toner Cartridge - ETC 337",
+      desc: "* For Use in : Canon -\n MF229dw/226dn/221d/223d /\n 227dw/216n/215/212w/211/\n217w/232w/233n/236n/243d/246dn\n/249dw/L151dw",
       // link: "/",
     },
   ],
