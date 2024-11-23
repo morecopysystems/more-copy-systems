@@ -441,8 +441,8 @@ export const ProductList = {
     },
     {
       imgUrl: "/KYOCERA DOCUMENT SOLUTIONS TONER KIT .png",
-      title: "KYOCERA DOCUMENT SOLUTIONS TONER KIT",
-      desc: "Description",
+      title: "KYOCERA DOCUMENT SOLUTIONS TONER CARTRIDGE",
+      desc: "KYOCERA DOCUMENT SOLUTIONS TONER KIT SUITABLE FOR :- \n• TK 1178 = ECOSYS M2040dn, M2540dn, M2640idw.\n• TK 4109 = TASKalfa 1800* TK 4140 = TASKalfa  2020/2320/2321\n• TK 7120 = TASKalfa 3212iBoth Original & Compatible Cartridges Available With Us !",
       // link: "/",
     },
     {
