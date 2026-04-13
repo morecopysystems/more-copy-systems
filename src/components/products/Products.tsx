@@ -1,6 +1,7 @@
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProductImg } from "./ProductImg";
+import { ProductList } from "@/constants";
 
 export default function Products() {
   return (
@@ -56,6 +57,23 @@ export default function Products() {
             <ProductImg type="PaperCutters" />
           </TabsContent>
         </Tabs>
+
+        <div className="sr-only">
+          <h2>Printers and Photocopiers Available in Ernakulam, Kochi</h2>
+          <p>More Copy Systems stocks the following products in Ernakulam, Kochi, Kerala:</p>
+          <ul>
+            {Object.values(ProductList).flat().map((product, i) => (
+              product.title ? (
+                <li key={i}>{product.title} — available for sale and service in Kochi, Ernakulam</li>
+              ) : null
+            ))}
+          </ul>
+          <p>
+            We also stock genuine and compatible toner cartridges, ink cartridges, drums,
+            and consumables for all major brands including Canon, Kyocera, Xerox, Epson,
+            Brother, and Konica Minolta — available in Ernakulam, Kerala.
+          </p>
+        </div>
       </MaxWidthWrapper>
     </section>
   );

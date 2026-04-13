@@ -51,6 +51,15 @@ export default function About() {
                 office equipment and supply requirements, backed by quality
                 products and exceptional service.
               </p>
+
+              <p className="text-sm text-muted-foreground mt-4">
+                We stock genuine and compatible consumables for all brands —
+                including toner cartridges, ink cartridges, drums, and rollers.
+                Kyocera TK-1178, TK-4109, TK-4140, TK-7120 · Canon GI-71, GI-790 ·
+                Epson EcoTank 001, 003, 005, 008, 664, 774 ·
+                Compatible laser toners ETC 12A, 88A, 925, 337 —
+                all available in Ernakulam, Kochi, Kerala.
+              </p>
             </div>
             <Image
               src={about_img}
