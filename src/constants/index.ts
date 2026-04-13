@@ -22,31 +22,31 @@ export const HeroImgs = [
 export const Servicess = [
   {
     title: "SALES",
-    link: "/sales",
+    link: "#products",
     description:
       "Explore our premium range of photocopiers, printers, and printing equipment. Perfect for offices, schools, and home use, our products offer high-quality, efficient, and cost-effective printing solutions for all your needs.",
   },
   {
     title: "SERVICES",
-    link: "/services",
+    link: "#services",
     description:
       "We offer installation, maintenance, and repair services to keep your equipment running smoothly, with expert support to handle all your needs and minimize interruptions.",
   },
   {
     title: "SPARES & CONSUMABLES",
-    link: "/spares",
+    link: "#products",
     description:
       "We offer high-quality spares and consumables for printers and photocopiers, including ink, toner, paper, and replacement parts, to ensure optimal performance and minimal downtime.",
   },
   {
     title: "RENTAL",
-    link: "/rental",
+    link: "#services",
     description:
       "We provide flexible printer and photocopier rentals with included installation, maintenance, and support. Choose from short-term or long-term options.",
   },
   {
     title: "EXCHANGE",
-    link: "/exchange",
+    link: "#services",
     description:
       "Our exchange program lets you trade in old printers and photocopiers for credit towards new models, keeping your business updated with minimal cost.",
   },

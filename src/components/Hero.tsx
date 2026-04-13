@@ -6,11 +6,19 @@ import Image from "next/image";
 
 const OPTIONS: EmblaOptionsType = { loop: true };
 const SLIDES = HeroImgs.map(({ imgUrl }) => imgUrl);
+const ALT_TEXTS = [
+  "Canon photocopier machine for sale in Ernakulam, Kochi",
+  "Office printer and photocopier showroom — More Copy Systems, Kerala",
+  "Kyocera and Xerox photocopier machines available in Ernakulam",
+];
 
 export default function Hero() {
   return (
     <main className="grainy-light ">
       <header className="">
+        <h1 className="sr-only">
+          Printer &amp; Photocopier Shop in Kochi, Ernakulam — More Copy Systems
+        </h1>
         <EmblaCarousel options={OPTIONS}>
           {SLIDES.map((slide, i) => (
             <div
@@ -19,7 +27,7 @@ export default function Hero() {
             >
               <Image
                 src={slide}
-                alt="Photocopier printer"
+                alt={ALT_TEXTS[i]}
                 width={1920}
                 height={1080}
                 className="object-cover w-full h-full sm:h-[600px] md:h-[700px] rounded-2xl"

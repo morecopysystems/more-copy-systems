@@ -14,9 +14,9 @@ export default function About() {
           <div className="flex justify-center gap-8 max-w-full flex-wrap">
             <div className="max-w-xl px-4 gap-3 flex flex-col">
               <h3 className="text-lg md:text-xl font-semibold  mt-10 mb-2">
-                MORE COPY SYSTEMS
+                More Copy Systems
               </h3>
-              <p className="font-medium text-sm md:text-base">More Copy Systems is a leading provider of sales and services for a wide range of digital multifunctional printing equipments (MFP/MFD) and consumables, based in Ernakulam, Kerala, India</p>
+              <p className="font-medium text-sm md:text-base">More Copy Systems is a leading provider of sales and services for a wide range of digital multifunctional printing equipments (MFP/MFD) and consumables, based in Ernakulam, Kochi, Kerala, India. We serve businesses and homes across Kochi, Ernakulam, and surrounding areas of Kerala.</p>
               <p className="text-sm md:text-base pr-8 md:pr-16">
                At <span className="font-medium">More Copy Systems</span> , we are dedicated to meeting all your
                 office equipment and supply needs with a diverse range of
@@ -54,7 +54,7 @@ export default function About() {
             </div>
             <Image
               src={about_img}
-              alt="Office equipments"
+              alt="More Copy Systems office equipment showroom in Ernakulam"
               width={400}
               className="object-contain pl-8 md:w-[500px]"
             />

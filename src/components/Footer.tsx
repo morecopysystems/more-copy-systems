@@ -39,9 +39,9 @@ export default function Footer() {
                 height={30}
               />
             </Link>
-            <Link href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnXVQcfxWxTwWKVbJgWZCdVbHzrLqMtpCpNXVMhjSGxpBFrFkcGWHMfqsHJrLRXNqxbwtg">
+            <a href="mailto:morecopysystems@gmail.com">
               <Image src="/mail.png" alt="mail" width={30} height={30} />
-            </Link>
+            </a>
             <Link href="https://www.linkedin.com/in/more-copy-systems-223818281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               <Image
                 src="/linkedin.png"
@@ -94,10 +94,22 @@ export default function Footer() {
 
         <div className="max-w-[300px] ">
           <p className="text-sm">
-            P.C Chambers , Banerji Road , Metro Pillar No : 625 , Ashirbhavan
-            Lane, Kacheripady , Kochi, India, Kerala
+            More Copy Systems
+            <br />
+            Ashir Bhavan Ln, Kacheripady
+            <br />
+            Ernakulam, Kerala — 682018
           </p>
-          <p className="text-sm">+91 98470 39467, +91 9048567007</p>
+          <p className="text-sm">
+            Phone:{" "}
+            <a href="tel:+919847039467" className="hover:underline">
+              +91 98470 39467
+            </a>
+            {" / "}
+            <a href="tel:+919048567007" className="hover:underline">
+              +91 90485 67007
+            </a>
+          </p>
         </div>
       </div>
       <div className="h-[0.5px] bg-slate-700 w-full "></div>
