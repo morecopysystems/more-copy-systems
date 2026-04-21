@@ -52,6 +52,13 @@ export default function About() {
                 products and exceptional service.
               </p>
 
+              <p className="text-sm text-muted-foreground mt-2">
+                Looking for a printer repair shop or printer service center in Kochi?
+                We offer same-day printer repair and photocopier servicing across Ernakulam.
+                We also do cartridge refilling, visiting card printing, and toner replacement
+                in Kochi — walk in or call +91 98470 39467.
+              </p>
+
               <p className="text-sm text-muted-foreground mt-4">
                 We stock genuine and compatible consumables for all brands —
                 including toner cartridges, ink cartridges, drums, and rollers.
