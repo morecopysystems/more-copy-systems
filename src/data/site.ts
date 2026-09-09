@@ -1,0 +1,116 @@
+export const SITE = {
+  name: "More Copy Systems",
+  shortName: "MCS",
+  url: "https://morecopysystems.in",
+  tagline: "Professional Printing & Office Equipment Solutions",
+  positioning:
+    "Printers, photocopiers and document equipment — sold, serviced, rented and exchanged from Kacheripady, Ernakulam.",
+  address: {
+    line1: "P.C. Chambers, Banerji Road",
+    line2: "Ashir Bhavan Ln, Kacheripady",
+    city: "Ernakulam",
+    region: "Kerala",
+    postalCode: "682018",
+    country: "IN",
+    landmark: "Metro Pillar No. 625",
+  },
+  geo: { lat: 9.987218173029484, lng: 76.28430928043295 },
+  phones: [
+    { label: "+91 98470 39467", href: "tel:+919847039467", raw: "919847039467" },
+    { label: "+91 90485 67007", href: "tel:+919048567007", raw: "919048567007" },
+  ],
+  email: "morecopysystems@gmail.com",
+  whatsapp: {
+    number: "919847039467",
+    href: "https://wa.me/919847039467",
+  },
+  hours: {
+    days: "Monday — Saturday",
+    open: "09:00",
+    close: "18:00",
+    display: "Mon–Sat · 9:00 – 18:00",
+  },
+  maps: "https://maps.app.goo.gl/B24QUdCv3nsgEMNp9",
+  googleReview:
+    "https://www.google.com/search?hl=en-IN&gl=in&q=Metro+Pillar+No+:+625,+More+Copy+Systems,+P.C+Chambers,+Banerji+Road,+Ashir+Bhavan+Ln,+Kacheripady,+Kochi,+Kerala+682018&ludocid=1239549074488004333&lsig=AB86z5WzO8QooGE-IWvFa9_yV4dU#lrd=0x3b080d19cf2a1d71:0x1133c350da858eed,3",
+  googleListing: "https://g.co/kgs/YSuww1X",
+  rating: { value: "5.0", scale: "5" },
+  socials: [
+    { name: "Instagram", href: "https://www.instagram.com/more_copy_systems/" },
+    { name: "Facebook", href: "https://www.facebook.com/profile.php?id=100094021993089" },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/in/more-copy-systems-223818281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  ],
+  serviceArea: [
+    "Kacheripady",
+    "Ernakulam",
+    "Kochi",
+    "Edappally",
+    "Kaloor",
+    "Palarivattom",
+    "Vyttila",
+    "Fort Kochi",
+  ],
+} as const;
+
+/** The seven things a visitor actually arrives wanting to do. */
+export const JOURNEYS = [
+  {
+    id: "buy",
+    index: "01",
+    title: "Buy a printer or photocopier",
+    body: "Canon, Kyocera, Konica Minolta, Xerox, Epson and Brother — A4 to A3, inkjet to heavy-duty MFD.",
+    href: "/products",
+    cta: "Explore products",
+  },
+  {
+    id: "service",
+    index: "02",
+    title: "Get equipment serviced",
+    body: "Breakdown repair, installation, preventive maintenance and toner replacement across all brands.",
+    href: "/services#repair",
+    cta: "Request service",
+  },
+  {
+    id: "rent",
+    index: "03",
+    title: "Rent equipment",
+    body: "Short or long-term rental with installation, maintenance and support included.",
+    href: "/services#rental",
+    cta: "Discuss rental",
+  },
+  {
+    id: "exchange",
+    index: "04",
+    title: "Exchange or upgrade",
+    body: "Trade in an ageing machine against credit toward a current model.",
+    href: "/services#exchange",
+    cta: "Value my machine",
+  },
+  {
+    id: "consumables",
+    index: "05",
+    title: "Find toner, ink & paper",
+    body: "Genuine and compatible cartridges, drums, copier paper, lamination film and binding supplies.",
+    href: "/products/inks-and-cartridges",
+    cta: "See consumables",
+  },
+  {
+    id: "printing",
+    index: "06",
+    title: "Get printing done",
+    body: "Visiting cards, letterheads, certificates, lamination, binding, PVC cards and bulk photocopying.",
+    href: "/services#printing",
+    cta: "See print services",
+  },
+  {
+    id: "contact",
+    index: "07",
+    title: "Talk to someone",
+    body: "Call, WhatsApp, or walk into the Kacheripady showroom. Same-day answers.",
+    href: "/contact",
+    cta: "Contact us",
+  },
+] as const;
