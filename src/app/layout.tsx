@@ -5,8 +5,11 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import ContactDock from "@/components/layout/ContactDock";
 import SmoothScroll from "@/components/motion/SmoothScroll";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { localBusinessSchema } from "@/lib/schema";
 import { SITE } from "@/data/site";
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const display = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -102,6 +105,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SiteFooter />
         <ContactDock />
       </body>
+      {GA_ID ? <GoogleAnalytics gaId={GA_ID} /> : null}
     </html>
   );
 }
