@@ -1,68 +1,106 @@
 import type { Metadata } from "next";
-import { Recursive } from "next/font/google";
+import { Bricolage_Grotesque, Inter_Tight, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar/Navbar";
-import Footer from "@/components/Footer";
+import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
+import ContactDock from "@/components/layout/ContactDock";
+import SmoothScroll from "@/components/motion/SmoothScroll";
 import { localBusinessSchema } from "@/lib/schema";
+import { SITE } from "@/data/site";
 
-const recursive = Recursive({ subsets: ["latin"] });
+const display = Bricolage_Grotesque({
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
+});
+
+const sans = Inter_Tight({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap",
+  weight: ["400", "500"],
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://morecopysystems.in"),
-  title: "Canon Authorized Dealer | Printer, Photocopier & PVC Card Printer Shop in Kochi, Ernakulam | More Copy Systems",
-  description:
-    "Printer & photocopier sales, rental and repair in Ernakulam, Kochi. Canon, Kyocera, Xerox, Epson, Brother. Toner, cartridges, laminators in stock. Call +91 98470 39467.",
-  alternates: {
-    canonical: "https://morecopysystems.in",
+  metadataBase: new URL(SITE.url),
+  title: {
+    default:
+      "More Copy Systems — Printer, Photocopier & Office Equipment Dealer in Kochi, Ernakulam",
+    template: "%s | More Copy Systems",
   },
+  description:
+    "Printer and photocopier sales, rental, exchange and repair in Kacheripady, Ernakulam, Kochi. Canon authorised dealer. Kyocera, Konica Minolta, Xerox, Epson, Brother. Toner, cartridges, paper, lamination and binding in stock. Call +91 98470 39467.",
+  alternates: { canonical: SITE.url },
+  keywords: [
+    "printer shop Kochi",
+    "photocopier dealer Ernakulam",
+    "Canon authorised dealer Kochi",
+    "printer repair Ernakulam",
+    "photocopier rental Kochi",
+    "toner cartridge Ernakulam",
+    "PVC card printing Kochi",
+  ],
   openGraph: {
-    title: "Canon Authorized Dealer | Printer & Photocopier Shop in Kochi | More Copy Systems",
+    title: "More Copy Systems — Printers, Photocopiers & Service in Kochi",
     description:
-      "Canon Authorized Dealer and photocopier dealer in Ernakulam, Kochi. Sales, rental, repair, lamination, binding, bulk printing, PVC card printing. Canon, Kyocera, Xerox, Epson, Brother, Konica Minolta. Riso Digital Duplicator, Evolis PVC Card Printer.",
-    url: "https://morecopysystems.in",
-    siteName: "More Copy Systems",
+      "Canon authorised dealer in Ernakulam, Kochi. Sales, rental, exchange, repair, consumables, lamination, binding, bulk printing and PVC card printing.",
+    url: SITE.url,
+    siteName: SITE.name,
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://morecopysystems.in/og-image.jpg",
+        url: `${SITE.url}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "More Copy Systems — Printer and Photocopier Shop in Ernakulam, Kochi",
+        alt: "More Copy Systems — printer and photocopier shop in Ernakulam, Kochi",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Canon Authorized Dealer | Printer & Photocopier Shop in Kochi | More Copy Systems",
+    title: "More Copy Systems — Printers, Photocopiers & Service in Kochi",
     description:
-      "Printer, photocopier, and MFD dealer in Ernakulam, Kochi. Lamination, binding, bulk printing, PVC card printing, Riso, Evolis.",
-    images: ["https://morecopysystems.in/og-image.jpg"],
+      "Printer, photocopier and MFD dealer in Ernakulam, Kochi. Sales, rental, repair and consumables.",
+    images: [`${SITE.url}/og-image.jpg`],
   },
+  robots: { index: true, follow: true },
 };
 
 export const viewport = {
   width: "device-width",
   initialScale: 1,
+  themeColor: "#0a0a0b",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-IN">
+    <html
+      lang="en-IN"
+      className={`${display.variable} ${sans.variable} ${mono.variable}`}
+      suppressHydrationWarning
+    >
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
       </head>
-      <body className={recursive.className}>
-        <Navbar />
-        {children}
-        <Footer />
+      <body className="grain min-h-screen bg-ink text-paper">
+        <SmoothScroll />
+        <SiteHeader />
+        <main id="main" className="relative">
+          {children}
+        </main>
+        <SiteFooter />
+        <ContactDock />
       </body>
     </html>
   );
