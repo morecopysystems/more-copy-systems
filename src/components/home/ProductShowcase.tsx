@@ -10,30 +10,27 @@ import SectionHeader from "@/components/SectionHeader";
 import { Action } from "@/components/ui/action";
 
 /**
- * Desktop pins the section and converts vertical scroll into horizontal travel.
- * Everything narrower — and anyone with reduced motion on — gets a native
- * snap-scrolling rail with identical content and no pinning.
+ * Pins the section and converts vertical scroll into horizontal travel
+ * on both desktop and mobile viewports, featuring the "Keep scrolling" progress bar.
+ * Reduced-motion users receive the static snap-scrolling rail.
  */
 export default function ProductShowcase() {
   const reduced = useReducedMotion();
   const [pinned, setPinned] = useState(false);
 
   useEffect(() => {
-    const mq = window.matchMedia("(min-width: 1024px)");
-    const apply = () => setPinned(mq.matches && !reduced);
-    apply();
-    mq.addEventListener("change", apply);
-    return () => mq.removeEventListener("change", apply);
+    // Active on all viewports (mobile & desktop) unless reduced motion is preferred
+    setPinned(!reduced);
   }, [reduced]);
 
   return (
-    <section id="products" className="relative scroll-mt-24 py-24 lg:pb-12 lg:pt-36">
+    <section id="products" className="relative scroll-mt-24 border-t border-hairline py-20 lg:pb-12 lg:pt-36">
       <div className="shell">
         <SectionHeader
           index="02"
           kicker="Product catalogue"
           title={"Ten categories.\nOne counter."}
-          body="From an A3 colour multifunction system down to the right toner cartridge for the machine you already own."
+          body="From heavy-duty A3 colour multifunction photocopiers down to the right toner cartridge for the machine you already own."
           action={
             <Action href="/products" variant="outline" arrow>
               Browse all products
@@ -55,8 +52,9 @@ function PinnedRail() {
   useLayoutEffect(() => {
     const measure = () => {
       if (!trackRef.current) return;
-      // How far the track has to travel for its last card to reach the right edge.
-      setDistance(Math.max(0, trackRef.current.scrollWidth - window.innerWidth + 96));
+      // Calculate travel distance so the last card reaches the right margin
+      const padding = window.innerWidth >= 1024 ? 96 : 32;
+      setDistance(Math.max(0, trackRef.current.scrollWidth - window.innerWidth + padding));
     };
     measure();
     window.addEventListener("resize", measure);
@@ -71,28 +69,40 @@ function PinnedRail() {
   const x = useSpring(rawX, { stiffness: 320, damping: 44, mass: 0.5 });
   const progress = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
-  // Horizontal travel runs faster than vertical scroll, so the section does not
-  // hijack five screens of scrolling to show ten cards.
-  const sectionHeight = Math.round(distance * 0.62) + 560;
+  // Calculate scroll runway: scaled for natural travel on mobile and desktop
+  const sectionHeight = Math.round(distance * 0.65) + 520;
 
   return (
-    <div ref={sectionRef} style={{ height: `${sectionHeight}px` }} className="relative mt-16">
-      <div className="sticky top-0 flex h-screen flex-col justify-center overflow-hidden">
+    <div ref={sectionRef} style={{ height: `${sectionHeight}px` }} className="relative mt-12 sm:mt-16">
+      <div className="sticky top-0 flex h-[100svh] flex-col justify-center overflow-hidden">
         <motion.div
           ref={trackRef}
           style={{ x }}
-          className="flex gap-6 pl-[max(1.25rem,calc((100vw-1440px)/2+3rem))] pr-24 will-change-transform"
+          className="flex gap-4 pl-5 pr-12 sm:gap-6 sm:pl-[max(1.25rem,calc((100vw-1440px)/2+3rem))] sm:pr-24 will-change-transform"
         >
           {CATEGORIES.map((c, i) => (
-            <CategoryCard key={c.slug} category={c} index={i} className="w-[26rem] shrink-0" />
+            <CategoryCard
+              key={c.slug}
+              category={c}
+              index={i}
+              className="w-[82vw] max-w-[21rem] shrink-0 sm:max-w-none sm:w-[26rem]"
+            />
           ))}
         </motion.div>
 
-        <div className="shell mt-10">
+        <div className="shell mt-6 sm:mt-10">
           <div className="h-px w-full bg-hairline">
             <motion.div style={{ width: progress }} className="h-px bg-accent" />
           </div>
-          <p className="label mt-4">Keep scrolling</p>
+          <div className="mt-3 flex items-center justify-between sm:mt-4">
+            <p className="label flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" aria-hidden />
+              Keep scrolling
+            </p>
+            <p className="font-mono text-xs text-paper-dim">
+              10 categories
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -108,11 +118,13 @@ function SnapRail() {
             key={c.slug}
             category={c}
             index={i}
-            className="w-[80vw] shrink-0 snap-start sm:w-[26rem]"
+            className="w-[82vw] shrink-0 snap-start sm:w-[26rem]"
           />
         ))}
       </div>
-      <p className="shell label mt-4">Swipe for more categories</p>
+      <div className="shell mt-4">
+        <p className="label">Swipe for more categories</p>
+      </div>
     </div>
   );
 }
@@ -136,26 +148,28 @@ function CategoryCard({
           src={category.cover}
           alt={`${category.name} available at More Copy Systems, Ernakulam`}
           fill
-          sizes="(max-width: 1024px) 80vw, 26rem"
+          sizes="(max-width: 640px) 82vw, (max-width: 1024px) 21rem, 26rem"
           loading={index < 2 ? "eager" : "lazy"}
-          className="object-contain p-8 transition-transform duration-700 ease-editorial group-hover:scale-[1.06]"
+          className="object-contain p-6 sm:p-8 transition-transform duration-700 ease-editorial group-hover:scale-[1.06]"
         />
-        <span className="absolute left-5 top-5 font-mono text-[10px] tracking-[0.2em] text-ink/45">
+        <span className="absolute left-4 top-4 font-mono text-[10px] tracking-[0.2em] text-ink/45 sm:left-5 sm:top-5">
           {String(index + 1).padStart(2, "0")} / {String(CATEGORIES.length).padStart(2, "0")}
         </span>
       </div>
 
-      <div className="flex flex-1 flex-col gap-3 p-7">
+      <div className="flex flex-1 flex-col gap-2.5 p-5 sm:gap-3 sm:p-7">
         <p className="label text-accent">{category.kicker}</p>
-        <div className="flex items-start justify-between gap-4">
-          <h3 className="font-display text-3xl leading-none">{category.name}</h3>
+        <div className="flex items-start justify-between gap-3">
+          <h3 className="font-display text-2xl leading-none sm:text-3xl">{category.name}</h3>
           <ArrowUpRight
-            className="mt-1 h-5 w-5 shrink-0 text-paper-dim transition-[transform,color] duration-500 ease-editorial group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent"
+            className="mt-0.5 h-4 w-4 shrink-0 text-paper-dim transition-[transform,color] duration-500 ease-editorial group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent sm:h-5 sm:w-5"
             aria-hidden
           />
         </div>
-        <p className="text-sm leading-relaxed text-paper-muted">{category.description}</p>
-        <p className="mt-auto pt-4 font-mono text-xs text-paper-dim">
+        <p className="line-clamp-2 text-xs leading-relaxed text-paper-muted sm:line-clamp-none sm:text-sm">
+          {category.description}
+        </p>
+        <p className="mt-auto pt-2 font-mono text-[11px] text-paper-dim sm:pt-4 sm:text-xs">
           {category.products.length} {category.products.length === 1 ? "line" : "lines"} listed
         </p>
       </div>

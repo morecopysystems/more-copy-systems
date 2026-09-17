@@ -1,11 +1,10 @@
 import Hero from "@/components/home/Hero";
 import Journeys from "@/components/home/Journeys";
 import ProductShowcase from "@/components/home/ProductShowcase";
+import ServicesOverview from "@/components/home/ServicesOverview";
 import BrandsSection from "@/components/home/BrandsSection";
-import ServicesSection from "@/components/home/ServicesSection";
 import WhySection from "@/components/home/WhySection";
-import LocalSection from "@/components/home/LocalSection";
-import ContactCta from "@/components/ContactCta";
+import ContactSection from "@/components/home/ContactSection";
 import SeoIndex from "@/components/SeoIndex";
 
 export default function Home() {
@@ -14,11 +13,10 @@ export default function Home() {
       <Hero />
       <Journeys />
       <ProductShowcase />
+      <ServicesOverview />
       <BrandsSection />
-      <ServicesSection />
       <WhySection />
-      <LocalSection />
-      <ContactCta />
+      <ContactSection />
       <SeoIndex />
     </>
   );
